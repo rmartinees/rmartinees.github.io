@@ -291,33 +291,39 @@ const categorias = [
                 archivo: "IMG_9928.JPG",
                 material: "Refractario",
                 dimensiones: "12 x 22 x 11 cm"
+            },
+             {
+                nombre: "Jarrón con flores",
+                archivo: "IMG_9939.JPG",
+                material: "Refractario",
+                dimensiones: "6 x 18 x 6 cm"
             }
         ]
     },
     {
-        titulo: "Púfs Jardín",
+        titulo: "Pufs Jardín",
         piezas: [
             {
-                nombre: "Púfs en Conjunto",
+                nombre: "Pufs en Conjunto",
                 archivo: "IMG_20241213_130923.JPG",
                 material: "Refractario",
                 dimensiones: ""
             },
             {
-                nombre: "Púf Rosa",
+                nombre: "Puf Rosa",
                 archivo: "IMG_20241213_130357.JPG",
                 material: "Refractario",
                 dimensiones: "39 x 42 x 37 cm"
             },
             {
-                nombre: "Púf Blanco",
+                nombre: "Puf Blanco",
                 archivo: "IMG_20241213_130451.JPG",
                 material: "Refractario",
                 dimensiones: "39 x 37 x 37 cm"
             },
             {
-                nombre: "Púf Verde",
-                archivo: "IMG_20241213_130451.JPG",
+                nombre: "Puf Verde",
+                archivo: "IMG_20241213_130513.JPG",
                 material: "Refractario",
                 dimensiones: "39 x 37 x 37 cm"
             }
