@@ -21,23 +21,23 @@
  header {
      background-color: var(--primary-color);
      color: white;
-     padding: 2rem 0;
+     padding-bottom: 2rem ;
      text-align: center;
      margin-bottom: 2rem;
  }
 
  h1 {
      font-size: 2.5rem;
-     margin-bottom: 0.5rem;
+    
  }
 
  .contact-info {
-     font-size: 1rem;
+     font-size: 1.2rem;
      margin-top: 1rem;
  }
 
  .contact-info a {
-     color: white;
+     color: wheat;
      text-decoration: none;
      margin: 0 10px;
  }
@@ -65,34 +65,39 @@
      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
  }
 
-.gallery-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-  gap: 25px;
-}
+ .gallery-grid {
+     display: grid;
+     grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+     gap: 25px;
+ }
 
-.gallery-item {
-  display: flex;
-  flex-direction: column;
-  background: white;
-  border-radius: 8px;
-  overflow: hidden;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-}
+ .gallery-item {
+     display: flex;
+     flex-direction: column;
+     background: white;
+     border-radius: 8px;
+     overflow: hidden;
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+ }
 
-.gallery-item img {
-  width: 100%;
-  height: auto; /* Let height adjust naturally */
-  aspect-ratio: 1/1; /* Default square ratio - change as needed */
-  object-fit: contain; /* Show full image without cropping */
-  object-position: center;
-  background: #f5f5f5; /* Fallback color for transparent areas */
-}
+ .gallery-item img {
+     width: 100%;
+     height: auto;
+     /* Let height adjust naturally */
+     aspect-ratio: 1/1;
+     /* Default square ratio - change as needed */
+     object-fit: contain;
+     /* Show full image without cropping */
+     object-position: center;
+     background: #f5f5f5;
+     /* Fallback color for transparent areas */
+ }
 
-.item-info {
-  padding: 15px;
-  flex-grow: 1; /* Push info to bottom if image is smaller */
-}
+ .item-info {
+     padding: 15px;
+     flex-grow: 1;
+     /* Push info to bottom if image is smaller */
+ }
 
  .item-info {
      padding: 15px;
@@ -152,7 +157,7 @@
      opacity: 0;
      transition: opacity 0.3s;
 
-      
+
  }
 
  .left-arrow {
@@ -176,26 +181,27 @@
  .modal-content {
      max-width: 85%;
      max-height: 85vh;
-       touch-action: pan-y;
+     touch-action: pan-y;
  }
 
  @media (hover: none) {
-    /* Always show arrows on touch devices */
-    .nav-arrow {
-        opacity: 0.7 !important;
-        display: block !important;
-    }
-    
-    /* Larger hit area for touch */
-    .nav-arrow::after {
-        content: '';
-        position: absolute;
-        top: -20px;
-        bottom: -20px;
-        left: -20px;
-        right: -20px;
-    }
-}
+
+     /* Always show arrows on touch devices */
+     .nav-arrow {
+         opacity: 0.7 !important;
+         display: block !important;
+     }
+
+     /* Larger hit area for touch */
+     .nav-arrow::after {
+         content: '';
+         position: absolute;
+         top: -20px;
+         bottom: -20px;
+         left: -20px;
+         right: -20px;
+     }
+ }
 
  footer {
      background-color: var(--primary-color);
@@ -219,18 +225,35 @@
  }
 
  .clickable {
-  font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; /* Fuente moderna */
-  font-weight: 300;        /* Ligero */
-  letter-spacing: 0.5em;   /* Espaciado entre letras */
-  font-size: 2rem;         /* Ajusta según el tamaño deseado */
-  text-align: center;      /* Centrado opcional */
-  cursor: pointer;
-  transition: all 0.3s ease;
-   
-}
+     font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+     font-size: 0.9rem;
+     color: #d1cece;
+     text-align: center;
+     cursor: pointer;
+     transition: all 0.3s ease;
+     text-decoration: none;
+     border: none;
+     border-radius: 5px;
+     cursor: pointer;
+     font-weight: 300;
+     background-color: #8c6744;
+     padding: 5px 10px;
+ }
 
-.clickable:hover {
-  background-color: #f0f0f0; /* subtle background change */
-  transform: scale(1.02); /* slight zoom */
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* soft shadow */
-}
+ .clickable:hover {
+     background-color: #f0f0f0;
+     transform: scale(1.05);
+     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+     color: black;
+ }
+
+ .ceramista {
+     color: #d1cece;
+     font-size: 1.5rem;
+     padding-bottom: 30px;
+     font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+     font-weight: 200;
+     letter-spacing: 0.5em;
+     font-size: 2rem;
+     text-align: center;
+ }
