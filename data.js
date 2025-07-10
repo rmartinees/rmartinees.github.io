@@ -249,7 +249,7 @@ const categorias = [
                 archivo: "IMG_9853.JPG",
                 material: "Porcelana",
                 dimensiones: "15,5 x 14,5 x 12 cm"
-            }, 
+            },
             {
                 nombre: "Poliedro Rojo",
                 archivo: "IMG_9847.JPG",
@@ -291,6 +291,35 @@ const categorias = [
                 archivo: "IMG_9928.JPG",
                 material: "Refractario",
                 dimensiones: "12 x 22 x 11 cm"
+            }
+        ]
+    },
+    {
+        titulo: "Púfs Jardín",
+        piezas: [
+            {
+                nombre: "Púfs en Conjunto",
+                archivo: "IMG_20241213_130923.JPG",
+                material: "Refractario",
+                dimensiones: ""
+            },
+            {
+                nombre: "Púf Rosa",
+                archivo: "IMG_20241213_130357.JPG",
+                material: "Refractario",
+                dimensiones: "39 x 42 x 37 cm"
+            },
+            {
+                nombre: "Púf Blanco",
+                archivo: "IMG_20241213_130451.JPG",
+                material: "Refractario",
+                dimensiones: "39 x 37 x 37 cm"
+            },
+            {
+                nombre: "Púf Verde",
+                archivo: "IMG_20241213_130451.JPG",
+                material: "Refractario",
+                dimensiones: "39 x 37 x 37 cm"
             }
         ]
     }
