@@ -291,6 +291,12 @@ const categorias = [
                 archivo: "IMG_9928.JPG",
                 material: "Refractario",
                 dimensiones: "12 x 22 x 11 cm"
+            },
+             {
+                nombre: "Jarrón con flores",
+                archivo: "IMG_9939.JPG",
+                material: "Refractario",
+                dimensiones: "6 x 18 x 6 cm"
             }
         ]
     },
