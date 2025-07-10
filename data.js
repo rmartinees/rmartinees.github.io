@@ -301,28 +301,28 @@ const categorias = [
         ]
     },
     {
-        titulo: "Púfs Jardín",
+        titulo: "Pufs Jardín",
         piezas: [
             {
-                nombre: "Púfs en Conjunto",
+                nombre: "Pufs en Conjunto",
                 archivo: "IMG_20241213_130923.JPG",
                 material: "Refractario",
                 dimensiones: ""
             },
             {
-                nombre: "Púf Rosa",
+                nombre: "Puf Rosa",
                 archivo: "IMG_20241213_130357.JPG",
                 material: "Refractario",
                 dimensiones: "39 x 42 x 37 cm"
             },
             {
-                nombre: "Púf Blanco",
+                nombre: "Puf Blanco",
                 archivo: "IMG_20241213_130451.JPG",
                 material: "Refractario",
                 dimensiones: "39 x 37 x 37 cm"
             },
             {
-                nombre: "Púf Verde",
+                nombre: "Puf Verde",
                 archivo: "IMG_20241213_130513.JPG",
                 material: "Refractario",
                 dimensiones: "39 x 37 x 37 cm"
