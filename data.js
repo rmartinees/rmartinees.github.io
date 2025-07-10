@@ -323,7 +323,7 @@ const categorias = [
             },
             {
                 nombre: "Púf Verde",
-                archivo: "IMG_20241213_130451.JPG",
+                archivo: "IMG_20241213_130513.JPG",
                 material: "Refractario",
                 dimensiones: "39 x 37 x 37 cm"
             }
