@@ -218,11 +218,19 @@
      }
  }
 
- h2 {
+ .clickable {
   font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; /* Fuente moderna */
   font-weight: 300;        /* Ligero */
   letter-spacing: 0.5em;   /* Espaciado entre letras */
-  color: #d1cece;          /* Gris claro */
   font-size: 2rem;         /* Ajusta según el tamaño deseado */
   text-align: center;      /* Centrado opcional */
+  cursor: pointer;
+  transition: all 0.3s ease;
+   
+}
+
+.clickable:hover {
+  background-color: #f0f0f0; /* subtle background change */
+  transform: scale(1.02); /* slight zoom */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* soft shadow */
 }
