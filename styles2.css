@@ -239,6 +239,7 @@
      background-color: #8c6744;
      padding: 5px 10px;
  }
+<<<<<<< HEAD
 
  .clickable:hover {
      background-color: #f0f0f0;
@@ -349,3 +350,23 @@
   border-radius: 8px;
   width: 300px;
 }
+=======
+
+ .clickable:hover {
+     background-color: #f0f0f0;
+     transform: scale(1.05);
+     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+     color: black;
+ }
+
+ .ceramista {
+     color: #d1cece;
+     font-size: 1.5rem;
+     padding-bottom: 30px;
+     font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+     font-weight: 200;
+     letter-spacing: 0.5em;
+     font-size: 2rem;
+     text-align: center;
+ }
+>>>>>>> f03f88c9177cd23fea16009c7043d9891be3e91f
