@@ -6,50 +6,83 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Catálogo Fina Pares</title>
     <link rel="stylesheet" href="styles2.css" />
-
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
 </head>
 
 <body>
 
-    <header>
+    <header> <img src="images/Vision1.jpg" style="max-width: 100%; height: auto;"><br><br>
         <div class="container">
-            <img src="images/Vision1.jpg" style="max-width: 100%; height: auto;"><br><br>
+
             <h1>Catálogo 2025-2026<br>Fina Pares</h1>
-            <a class="clickable" href="https://ricardo539.wixsite.com/fina"
-                style="color: #d1cece; font-size:1.5rem;">Ceramista</a>
-            <p><a href="https://1drv.ms/b/c/f01d867fe2f56848/EUho9eJ_hh0ggPCI5A0AAAAB6ULtqXEF5L6Tf5LAjwvg-Q"
-                    target="_blank" download>
-                    <button
-                        style="padding: 10px 20px; background-color:  #8b5a2b; color: white; border: none; border-radius: 5px; cursor: pointer;">
+            <p class="ceramista">Ceramista </p>
+            <p>
+                <a href="https://fina71.wixsite.com/fina" target="_blank" rel="noopener noreferrer">
+                    <button class="clickable">
+                        Web Artista
+                    </button>
+                </a>
+
+                <a href="https://1drv.ms/b/c/f01d867fe2f56848/EUho9eJ_hh0ggPCI5A0AAAAB6ULtqXEF5L6Tf5LAjwvg-Q"  target="_blank" rel="noopener noreferrer">
+                    <button class="clickable" style="  margin-left:2rem;">
                         Catálogo PDF
                     </button>
                 </a>
+                </span>
             </p>
         </div>
     </header>
 
+    <div id="cart-icon">
+        🛒 <span id="cart-count">0</span>
+    </div>
+    <div id="cart-dropdown" class="hidden">
+        <h3>Carrito</h3>
+        <ul id="cart-items"></ul>
+        <button id="send-order" class="hidden">Enviar pedido</button>
+        <small>
+            <p>
+                Al ser artesanía, después de enviar el pedido nos pondremos en contacto contigo para establecer fechas
+                de
+                entrega y recogida en taller o el coste adicional de los portes.</p>
+        </small>
+    </div>
 
+    <!-- Modal formulario -->
+    <div id="order-modal" class="hidden">
+        <div class="modal-content">
+            <h3>Datos para el pedido</h3>
+            <label>Email:</label>
+            <input type="email" id="customer-email" required><br>
+            <label>Teléfono:</label>
+            <input type="tel" id="customer-phone" required><br>
+            <button id="confirm-order">Confirmar pedido</button>
+            <button id="cancel-order">Cancelar</button>
+        </div>
+    </div>
 
     <div class="container" id="gallery-container">
         <!-- Gallery sections will be dynamically inserted here -->
     </div>
 
-    <!-- The Modal -->
-    <!-- Add to your modal HTML -->
     <div id="myModal" class="modal">
         <span class="close" onclick="closeModal()">&times;</span>
         <div class="nav-arrow left-arrow" onclick="navigateModal(-1)">❮</div>
         <img class="modal-content" id="modal-img">
         <div class="nav-arrow right-arrow" onclick="navigateModal(1)">❯</div>
     </div>
-    <div class="container">
+    <div>
         <img src="images/Vision2.jpg" style="max-width: 100%; height: auto;">
         <footer>
-            <div>
-                <p>© 2025 Cerámica Fina Pares. Todos los derechos reservados.</p>
-                <p> <a href="tel:626253363">Tfo: 626 253 363</a> | <a href="mailto:fpares@outlook.es">email:
-                        fpares@outlook.es</a> | <a href="https://instagram.com/fina_pares" target="_blank">Instagram:
-                        fina_pares</a></p>
+            <div class="contact-info">
+                <p>© 2025 Fina Pares. Todos los derechos reservados.</p>
+                <p>
+                    <a href="tel:626253363">Tfo: 626 253 363</a> |
+                    <a href="mailto:fparesr@outlook.es">
+                        email: fparesr@outlook.es</a> |
+                    <a href="https://instagram.com/fina_pares" target="_blank">
+                        Instagram: fina_pares</a>
+                </p>
             </div>
         </footer>
     </div>

@@ -1,3 +1,6 @@
+
+let cart = [];
+
 function generateGallery() {
     const galleryContainer = document.getElementById('gallery-container');
     categorias.forEach((categoria, categoryIdx) => {
@@ -39,12 +42,28 @@ function generateGallery() {
             itemTitle.className = 'item-title';
             itemTitle.textContent = pieza.nombre;
 
+            const spanRef = document.createElement('div');
+            spanRef.className = 'item-details';
+            spanRef.textContent = `Ref: [${pieza.ref}]`;
+
             const itemDetails = document.createElement('div');
             itemDetails.className = 'item-details';
             itemDetails.textContent = `${pieza.material} · ${pieza.dimensiones}`;
 
+            const itemRefPrec = document.createElement('div');
+            itemRefPrec.className = 'item-details';
+            itemRefPrec.textContent = `PVP: ${pieza.precio}`;
+
+            const addToCartBtn = document.createElement('button');
+            addToCartBtn.textContent = 'Añadir al carrito';
+            addToCartBtn.className = 'btn-add-cart';
+            addToCartBtn.addEventListener('click', () => addToCart(pieza));
+
             info.appendChild(itemTitle);
+            info.appendChild(spanRef);
             info.appendChild(itemDetails);
+            info.appendChild(itemRefPrec);
+            info.appendChild(addToCartBtn);
             item.appendChild(img);
             item.appendChild(info);
             grid.appendChild(item);
@@ -54,6 +73,85 @@ function generateGallery() {
         galleryContainer.appendChild(section);
     });
 }
+function addToCart(pieza) {
+    cart.push(pieza);
+    document.getElementById("cart-count").textContent = cart.length;
+    renderCart();
+}
+
+// Renderizar carrito
+function renderCart() {
+    const cartItems = document.getElementById("cart-items");
+    cartItems.innerHTML = "";
+    
+    cart.forEach((item, index) => {
+        const li = document.createElement("li");
+        li.textContent = `${item.nombre}: ${item.dimensiones}  [${item.ref}] · ${item.precio} IVA incluido`;
+
+        // Botón eliminar
+        const removeBtn = document.createElement("button");
+        removeBtn.textContent = "X";
+        removeBtn.className = "remove-btn";
+        removeBtn.addEventListener("click", () => {
+            cart.splice(index, 1);
+            document.getElementById("cart-count").textContent = cart.length;
+            renderCart();
+        });
+
+        li.appendChild(removeBtn);
+        cartItems.appendChild(li);
+    });
+     document.getElementById("send-order").classList.toggle("hidden", cart.length === 0)
+}
+
+// Toggle del carrito
+document.getElementById("cart-icon").addEventListener("click", () => {
+    document.getElementById("cart-dropdown").classList.toggle("hidden");
+});
+
+// Abrir modal al enviar pedido
+document.getElementById("send-order").addEventListener("click", () => {
+    if (cart.length === 0) {
+        alert("El carrito está vacío");
+        return;
+    }
+    document.getElementById("order-modal").classList.remove("hidden");
+});
+
+// Cancelar pedido
+document.getElementById("cancel-order").addEventListener("click", () => {
+    document.getElementById("order-modal").classList.add("hidden");
+});
+
+// Confirmar pedido y enviar correo con EmailJS
+document.getElementById("confirm-order").addEventListener("click", () => {
+    const email = document.getElementById("customer-email").value;
+    const phone = document.getElementById("customer-phone").value;
+
+    if (!email || !phone) {
+        alert("Por favor introduce email y teléfono");
+        return;
+    }
+
+    // Preparar datos del pedido
+    const orderDetails = cart.map(p =>  `${p.nombre}: ${p.dimensiones}  [${p.ref}] · ${p.precio} IVA incluido`).join("\n");
+
+    emailjs.send("service_mahnj3e", "template_ml4dyhm", { 
+        customer_email: email,
+        customer_phone: phone,
+        order_list: orderDetails
+    }, "BM8sGVN3ZLbU0mobG").then(() => {
+        alert("Pedido enviado correctamente ✅");
+        cart = [];
+        document.getElementById("cart-count").textContent = 0;
+        renderCart();
+        document.getElementById("order-modal").classList.add("hidden");
+    }).catch(err => {
+        console.error("Error:", err);
+        alert("Hubo un error al enviar el pedido ❌");
+    });
+});
+
 
 // Call the function to generate the gallery when the page loads
 window.onload = generateGallery;
@@ -77,7 +175,7 @@ function openModal(imgElement, categoryIdx, pieceIdx) {
     modalImg.alt = imgElement.alt;
     document.body.style.overflow = "hidden"; // Prevent page scrolling
 
-        if ('ontouchstart' in window) {
+    if ('ontouchstart' in window) {
         showModalArrows(); // Always show arrows on touch devices
     }
 }
@@ -96,7 +194,7 @@ function navigateModal(direction) {
     if (window.navigator.vibrate) {
         window.navigator.vibrate(10);
     }
-    
+
     // Check if we need to move to next/previous category
     if (newPieceIndex >= currentCategory.piezas.length) {
         if (currentCategoryIndex < categorias.length - 1) {
@@ -164,7 +262,7 @@ function openModal(imgElement, categoryIdx, pieceIdx) {
     currentCategoryIndex = categoryIdx;
     currentPieceIndex = pieceIdx;
     modalOpen = true;
-    
+
     modal.style.display = "block";
     modalImg.src = imgElement.src;
     modalImg.alt = imgElement.alt;
@@ -181,7 +279,7 @@ function closeModal() {
 }
 
 // Add touch event support for mobile
-modal.addEventListener('touchstart', function() {
+modal.addEventListener('touchstart', function () {
     showModalArrows();
     setTimeout(hideModalArrows, 2000); // Hide after 2 seconds
 });
@@ -207,7 +305,7 @@ function handleTouchEnd(e) {
 
 function handleSwipe() {
     const swipeThreshold = 50; // Minimum swipe distance in pixels
-    
+
     if (touchStartX - touchEndX > swipeThreshold) {
         // Swipe left (next image)
         navigateModal(1);
