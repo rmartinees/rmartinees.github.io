@@ -1,6 +1,6 @@
 
 let cart = [];
-let tot=0;
+let tot = 0;
 
 function generateGallery() {
     const galleryContainer = document.getElementById('gallery-container');
@@ -76,7 +76,7 @@ function generateGallery() {
 }
 function addToCart(pieza) {
     cart.push(pieza);
-    tot = tot +pieza.precio;
+    tot = tot + pieza.precio;
     document.getElementById("cart-count").textContent = cart.length;
     renderCart();
 }
@@ -85,17 +85,18 @@ function addToCart(pieza) {
 function renderCart() {
     const cartItems = document.getElementById("cart-items");
     cartItems.innerHTML = "";
-    
+
     cart.forEach((item, index) => {
         const li = document.createElement("li");
-        li.textContent = `${item.nombre}: ${item.dimensiones}  [${item.ref}] · € ${item.precio} IVA incluido`;
+
+        li.textContent = `${index + 1} - ${item.nombre}: ${item.dimensiones}  [${item.ref}] · € ${item.precio} IVA incluido`;
 
         // Botón eliminar
         const removeBtn = document.createElement("button");
         removeBtn.textContent = "X";
         removeBtn.className = "remove-btn";
         removeBtn.addEventListener("click", () => {
-            tot = tot- cart[index].precio;
+            tot = tot - cart[index].precio;
             cart.splice(index, 1);
             document.getElementById("cart-count").textContent = cart.length;
             renderCart();
@@ -104,10 +105,11 @@ function renderCart() {
         li.appendChild(removeBtn);
         cartItems.appendChild(li);
     });
-  const pa = document.createElement("p");
-  pa.textContent = `IMPORTE TOTAL DEL CARRITO: ${tot} IVA incluido`;
+    const pa = document.createElement("p");
+    pa.textContent = `IMPORTE TOTAL DEL CARRITO: € ${tot} IVA incluido`;
     cartItems.appendChild(pa)
-     document.getElementById("send-order").classList.toggle("hidden", cart.length === 0)
+    document.getElementById("send-order").classList.toggle("hidden", cart.length === 0)
+    document.getElementById("order-modal").classList.add("hidden");
 }
 
 // Toggle del carrito
@@ -115,12 +117,16 @@ document.getElementById("cart-icon").addEventListener("click", () => {
     document.getElementById("cart-dropdown").classList.toggle("hidden");
 });
 
+document.getElementById("cerrarCarro").addEventListener("click", () => {
+    document.getElementById("cart-dropdown").classList.toggle("hidden");
+});
 // Abrir modal al enviar pedido
 document.getElementById("send-order").addEventListener("click", () => {
     if (cart.length === 0) {
         alert("El carrito está vacío");
         return;
     }
+    document.getElementById("send-order").classList.toggle("hidden");
     document.getElementById("order-modal").classList.remove("hidden");
 });
 
@@ -133,29 +139,66 @@ document.getElementById("cancel-order").addEventListener("click", () => {
 document.getElementById("confirm-order").addEventListener("click", () => {
     const email = document.getElementById("customer-email").value;
     const phone = document.getElementById("customer-phone").value;
+    const nom = document.getElementById("customer-name").value;
+    const apell = document.getElementById("customer-apell").value;
+    const dir = document.getElementById("customer-dir").value;
+    const postal = document.getElementById("customer-postal").value;
+    const ciud = document.getElementById("customer-ciud").value;
+    const prov = document.getElementById("customer-prov").value;
 
-    if (!email || !phone) {
-        alert("Por favor introduce email y teléfono");
+    if (!email || !phone || !nom || !apell || !dir || !postal || !ciud || !prov) {
+        alert("Por favor rellena todos los campos para poder confirmar el pedido");
         return;
     }
 
-    // Preparar datos del pedido
-    const orderDetails = cart.map(p =>  `${p.nombre}: ${p.dimensiones}  [${p.ref}] · € ${p.precio} IVA incluido`).join("\n");
+    if (!document.getElementById("customer-postal").checkValidity()) {
+        alert("Código Postal incorrecto")
+        return;
+    }
 
-    emailjs.send("service_mahnj3e", "template_ml4dyhm", { 
+    if (!document.getElementById("customer-phone").checkValidity()) {
+        alert("Formato Teléfono incorrecto");
+        return;
+    }
+
+    if (!document.getElementById("customer-email").checkValidity()) {
+        alert("Formato email incorrecto");
+        return;
+    }
+    document.getElementById("botonera").classList.add("hidden");
+    document.getElementById("nobotonera").classList.remove("hidden");
+    // Preparar datos del pedido
+    let orderDetails = cart.map((p, index) => `${index + 1} - ${p.nombre}: ${p.dimensiones}  [${p.ref}] · € ${p.precio} IVA incluido`).join("\n");
+    orderDetails = orderDetails + "\n\n" + `IMPORTE TOTAL DEL CARRITO: € ${tot} IVA incluido`;
+
+    emailjs.send("service_mahnj3e", "template_ml4dyhm", {
         customer_email: email,
         customer_phone: phone,
+        customer_name: nom,
+        customer_apell: apell,
+        customer_dir: dir,
+        customer_postal: postal,
+        customer_ciud: ciud,
+        customer_prov: prov,
         order_list: orderDetails
     }, "BM8sGVN3ZLbU0mobG").then(() => {
         alert("Pedido enviado correctamente ✅");
         cart = [];
+        tot = 0;
         document.getElementById("cart-count").textContent = 0;
         renderCart();
         document.getElementById("order-modal").classList.add("hidden");
+        document.getElementById("cart-dropdown").classList.add("hidden");
+        document.getElementById("botonera").classList.remove("hidden");
+        document.getElementById("nobotonera").classList.add("hidden");
     }).catch(err => {
         console.error("Error:", err);
+        document.getElementById("botonera").classList.remove("hidden");
+        document.getElementById("nobotonera").classList.add("hidden");
         alert("Hubo un error al enviar el pedido ❌");
     });
+
+
 });
 
 

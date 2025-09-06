@@ -397,7 +397,9 @@ const categorias = [
                 nombre: "Pufs en Conjunto",
                 archivo: "IMG_20241213_130923.JPG",
                 material: "Refractario",
-                dimensiones: ""
+                dimensiones: "", 
+                precio: 0,
+                ref: "No en venta"
             },
             {
                 nombre: "Puf Rosa",
