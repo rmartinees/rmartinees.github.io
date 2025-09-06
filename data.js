@@ -7,7 +7,7 @@ const categorias = [
                 archivo: "IMG_9844.JPG",
                 material: "Refractario",
                 dimensiones: "15 x 27 x 5 cm",
-                precio: "€ 175",
+                precio: 175,
                 ref: "CG001/25"
             },
             {
@@ -15,7 +15,7 @@ const categorias = [
                 archivo: "IMG_9865.JPG",
                 material: "Refractario",
                 dimensiones: "14 x 25 x 4 cm",
-                precio: "€ 175",
+                precio: 175,
                 ref: "CG002/25"
             },
             {
@@ -23,7 +23,7 @@ const categorias = [
                 archivo: "IMG_9859.JPG",
                 material: "Refractario",
                 dimensiones: "14 x 25 x 4 cm",
-                precio: "€ 175",
+                precio: 175,
                 ref: "CG003/25"
             },
             {
@@ -31,7 +31,7 @@ const categorias = [
                 archivo: "IMG-20250522-WA0051.JPG",
                 material: "Porcelana",
                 dimensiones: "14 x 25 x 4 cm",
-                precio: "€ 115",
+                precio: 115,
                 ref: "CG004/25"
             }
         ]
@@ -44,7 +44,7 @@ const categorias = [
                 archivo: "IMG_9881.JPG",
                 material: "Porcelana",
                 dimensiones: "18 x 10 x 3,5 cm",
-                precio: "€ 75",
+                precio: 75,
                 ref: "CL001/25"
             },
             {
@@ -52,7 +52,7 @@ const categorias = [
                 archivo: "IMG_9912.JPG",
                 material: "Porcelana",
                 dimensiones: "18 x 10 x 3,5 cm",
-                precio: "€ 60",
+                precio: 60,
                 ref: "CL002/25"
             },
             {
@@ -60,7 +60,7 @@ const categorias = [
                 archivo: "IMG_9911.JPG",
                 material: "Porcelana",
                 dimensiones: "18 x 10 x 3,5 cm",
-                precio: "€ 60",
+                precio: 60,
                 ref: "CL003/25"
             },
             {
@@ -68,7 +68,7 @@ const categorias = [
                 archivo: "IMG_9871.JPG",
                 material: "Porcelana",
                 dimensiones: "18 x 10 x 3,5 cm",
-                precio: "€ 50",
+                precio: 50,
                 ref: "CL004/25"
             },
             {
@@ -76,7 +76,7 @@ const categorias = [
                 archivo: "IMG_9906.JPG",
                 material: "Porcelana",
                 dimensiones: "18 x 10 x 3,5 cm",
-                precio: "€ 60",
+                precio: 60,
                 ref: "CL005/25"
             },
             {
@@ -84,7 +84,7 @@ const categorias = [
                 archivo: "IMG_9882.JPG",
                 material: "Porcelana",
                 dimensiones: "18 x 10 x 3,5 cm",
-                precio: "€ 50",
+                precio: 50,
                 ref: "CL006/25"
             },
             {
@@ -92,7 +92,7 @@ const categorias = [
                 archivo: "IMG_9872.JPG",
                 material: "Porcelana",
                 dimensiones: "18 x 10 x 3,5 cm",
-                precio: "€ 50",
+                precio: 50,
                 ref: "CL007/25"
             },
             {
@@ -100,14 +100,14 @@ const categorias = [
                 archivo: "IMG_9907.JPG",
                 material: "Porcelana",
                 dimensiones: "18 x 10 x 3,5 cm",
-                precio: "€ 60",
+                precio: 60,
                 ref: "CL008/25"
             }, {
                 nombre: "Curvilíneo Azul",
                 archivo: "IMG_9883.JPG",
                 material: "Porcelana",
                 dimensiones: "18 x 10 x 3,5 cm",
-                precio: "€ 50",
+                precio: 50,
                 ref: "CL009/25"
             },
             {
@@ -115,7 +115,7 @@ const categorias = [
                 archivo: "IMG_9914.JPG",
                 material: "Porcelana",
                 dimensiones: "18 x 10 x 3,5 cm",
-                precio: "€ 60",
+                precio: 60,
                 ref: "CL010/25"
             },
             {
@@ -123,7 +123,7 @@ const categorias = [
                 archivo: "IMG-20250522-WA0045.JPG",
                 material: "Porcelana",
                 dimensiones: "18 x 10 x 3,5 cm",
-                precio: "€ 50",
+                precio: 50,
                 ref: "CL011/25"
             },
             {
@@ -131,7 +131,7 @@ const categorias = [
                 archivo: "IMG-20250522-WA0050.JPG",
                 material: "Porcelana",
                 dimensiones: "18 x 10 x 3,5 cm",
-                precio: "€ 50",
+                precio: 50,
                 ref: "CL012/25"
             },
             {
@@ -139,7 +139,7 @@ const categorias = [
                 archivo: "IMG-20250522-WA0044.JPG",
                 material: "Porcelana",
                 dimensiones: "18 x 10 x 3,5 cm",
-                precio: "€ 75",
+                precio: "75",
                 ref: "CL013/25"
             },
             {
@@ -147,7 +147,7 @@ const categorias = [
                 archivo: "IMG-20250522-WA0052.JPG",
                 material: "Porcelana",
                 dimensiones: "18 x 10 x 3,5 cm",
-                precio: "€ 60",
+                precio: 60,
                 ref: "CL014/25"
             },
             {
@@ -155,7 +155,7 @@ const categorias = [
                 archivo: "IMG-20250522-WA0043.JPG",
                 material: "Porcelana",
                 dimensiones: "18 x 10 x 3,5 cm",
-                precio: "€ 60",
+                precio: 60,
                 ref: "CL015/25"
             },
             {
@@ -163,7 +163,7 @@ const categorias = [
                 archivo: "IMG-20250522-WA00999.JPG",
                 material: "Porcelana",
                 dimensiones: "18 x 10 x 3,5 cm",
-                precio: "€ 50",
+                precio: 50,
                 ref: "CL016/25"
             }
         ]
@@ -176,7 +176,7 @@ const categorias = [
                 archivo: "IMG_9892.JPG",
                 material: "Porcelana",
                 dimensiones: "9 x 12 x 3,5 cm",
-                precio: "€ 55",
+                precio: 55,
                 ref: "CLS001/25"
             },
             {
@@ -184,7 +184,7 @@ const categorias = [
                 archivo: "IMG_9896.JPG",
                 material: "Porcelana",
                 dimensiones: "9 x 12 x 3,5 cm",
-                precio: "€ 55",
+                precio: 55,
                 ref: "CLS002/25"
             },
             {
@@ -192,7 +192,7 @@ const categorias = [
                 archivo: "IMG_9893.JPG",
                 material: "Porcelana",
                 dimensiones: "9 x 12 x 3,5 cm",
-                precio: "€ 60",
+                precio: 60,
                 ref: "CLS003/25"
             }
         ]
@@ -205,7 +205,7 @@ const categorias = [
                 archivo: "IMG_9888.JPG",
                 material: "Porcelana",
                 dimensiones: "10 x 10 x 3 cm",
-                precio: "€ 50",
+                precio: 50,
                 ref: "CLP004/25"
             },
             {
@@ -213,7 +213,7 @@ const categorias = [
                 archivo: "IMG_9904.JPG",
                 material: "Porcelana",
                 dimensiones: "10 x 10 x 3 cm",
-                precio: "€ 60",
+                precio: 60,
                 ref: "CLP005/25"
             },
             {
@@ -221,7 +221,7 @@ const categorias = [
                 archivo: "IMG_9901.JPG",
                 material: "Porcelana",
                 dimensiones: "10 x 10 x 3 cm",
-                precio: "€ 50",
+                precio: 50,
                 ref: "CLP006/25"
             },
             {
@@ -229,7 +229,7 @@ const categorias = [
                 archivo: "IMG_9899.JPG",
                 material: "Porcelana",
                 dimensiones: "10 x 10 x 3 cm",
-                precio: "€ 60",
+                precio: 60,
                 ref: "CLP007/25"
             },
             {
@@ -237,7 +237,7 @@ const categorias = [
                 archivo: "IMG_9885.JPG",
                 material: "Porcelana",
                 dimensiones: "10 x 10 x 3 cm",
-                precio: "€ 50",
+                precio: 50,
                 ref: "CLP008/25"
             },
             {
@@ -245,7 +245,7 @@ const categorias = [
                 archivo: "IMG_9886.JPG",
                 material: "Porcelana",
                 dimensiones: "10 x 10 x 3 cm",
-                precio: "€ 50",
+                precio: 50,
                 ref: "CLP009/25"
             },
             {
@@ -253,7 +253,7 @@ const categorias = [
                 archivo: "IMG_9900.JPG",
                 material: "Porcelana",
                 dimensiones: "10 x 10 x 3 cm",
-                precio: "€ 60",
+                precio: 60,
                 ref: "CLP010/25"
             },
 
@@ -262,7 +262,7 @@ const categorias = [
                 archivo: "IMG_9900.JPG",
                 material: "Porcelana",
                 dimensiones: "10 x 10 x 3 cm",
-                precio: "€ 60",
+                precio: 60,
                 ref: "CLP011/25"
             },
             {
@@ -270,7 +270,7 @@ const categorias = [
                 archivo: "IMG_9889.JPG",
                 material: "Porcelana",
                 dimensiones: "10 x 10 x 3 cm",
-                precio: "€ 50",
+                precio: 50,
                 ref: "CLP012/25"
             },
             {
@@ -278,7 +278,7 @@ const categorias = [
                 archivo: "IMG_9890.JPG",
                 material: "Porcelana",
                 dimensiones: "10 x 10 x 3 cm",
-                precio: "€ 50",
+                precio: 50,
                 ref: "CLP013/25"
             },
             {
@@ -286,7 +286,7 @@ const categorias = [
                 archivo: "IMG-20250522-WA0053.JPG",
                 material: "Porcelana",
                 dimensiones: "10 x 10 x 3 cm",
-                precio: "€ 50",
+                precio: 50,
                 ref: "CLP014/25"
             },
             {
@@ -294,7 +294,7 @@ const categorias = [
                 archivo: "IMG-20250522-WA0048.JPG",
                 material: "Porcelana",
                 dimensiones: "10 x 10 x 3 cm",
-                precio: "€ 60",
+                precio: 60,
                 ref: "CLP015/25"
             },
             {
@@ -302,7 +302,7 @@ const categorias = [
                 archivo: "IMG-20250522-WA0047.JPG",
                 material: "Porcelana",
                 dimensiones: "23 x 16 x 3 cm",
-                precio: "€ 50",
+                precio: 50,
                 ref: "CLP016/25"
             },
             {
@@ -310,7 +310,7 @@ const categorias = [
                 archivo: "IMG-20250522-WA0046.JPG",
                 material: "Porcelana",
                 dimensiones: "10 x 10 x 3 cm",
-                precio: "€ 50",
+                precio: 50,
                 ref: "CLP017/25"
             }
         ]
@@ -323,7 +323,7 @@ const categorias = [
                 archivo: "IMG_9853.JPG",
                 material: "Porcelana",
                 dimensiones: "15,5 x 14,5 x 12 cm",
-                precio: "€ 80",
+                precio: 80,
                 ref: "POL001/25"
             },
             {
@@ -331,7 +331,7 @@ const categorias = [
                 archivo: "IMG_9847.JPG",
                 material: "Porcelana",
                 dimensiones: "15,5 x 14,5 x 12 cm",
-                precio: "€ 80",
+                precio: 80,
                 ref: "POL002/25"
             },
             {
@@ -339,7 +339,7 @@ const categorias = [
                 archivo: "IMG_9852.JPG",
                 material: "Porcelana",
                 dimensiones: "15,5 x 14,5 x 12 cm",
-                precio: "€ 80",
+                precio: 80,
                 ref: "POL003/25"
             },
             {
@@ -347,7 +347,7 @@ const categorias = [
                 archivo: "IMG_9855.JPG",
                 material: "Porcelana",
                 dimensiones: "15,5 x 14,5 x 12 cm",
-                precio: "€ 80",
+                precio: 80,
                 ref: "POL004/25"
             },
             {
@@ -355,7 +355,7 @@ const categorias = [
                 archivo: "IMG_9850.JPG",
                 material: "Porcelana",
                 dimensiones: "15,5 x 14,5 x 12 cm",
-                precio: "€ 80",
+                precio: 80,
                 ref: "POL005/25"
             },
 
@@ -369,7 +369,7 @@ const categorias = [
                 archivo: "IMG_9923.JPG",
                 material: "Refractario",
                 dimensiones: "19 x 24 x 10 cm",
-                precio: "€ 85",
+                precio: 85,
                 ref: "JAR001/25"
             },
             {
@@ -377,7 +377,7 @@ const categorias = [
                 archivo: "IMG_9928.JPG",
                 material: "Refractario",
                 dimensiones: "12 x 22 x 11 cm",
-                precio: "€ 85",
+                precio: 85,
                 ref: "JAR002/25"
             },
              {
@@ -385,7 +385,7 @@ const categorias = [
                 archivo: "IMG_9939.JPG",
                 material: "Refractario",
                 dimensiones: "6 x 18 x 6 cm",
-                precio: "€ 115",
+                precio: 115,
                 ref: "JAR003/25"
             }
         ]
@@ -404,7 +404,7 @@ const categorias = [
                 archivo: "IMG_20241213_130357.JPG",
                 material: "Refractario",
                 dimensiones: "39 x 42 x 37 cm",
-                precio: "€ 500",
+                precio: 500,
                 ref: "PUF001/25"
             },
             {
@@ -412,7 +412,7 @@ const categorias = [
                 archivo: "IMG_20241213_130451.JPG",
                 material: "Refractario",
                 dimensiones: "39 x 37 x 37 cm",
-                precio: "€ 500",
+                precio: 500,
                 ref: "PUF002/25"
             },
             {
@@ -420,7 +420,7 @@ const categorias = [
                 archivo: "IMG_20241213_130513.JPG",
                 material: "Refractario",
                 dimensiones: "39 x 37 x 37 cm",
-                precio: "€ 500",
+                precio: 500,
                 ref: "PUF003/25"
             }
         ]

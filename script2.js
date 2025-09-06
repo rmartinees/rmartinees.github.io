@@ -1,5 +1,6 @@
 
 let cart = [];
+let tot=0;
 
 function generateGallery() {
     const galleryContainer = document.getElementById('gallery-container');
@@ -52,7 +53,7 @@ function generateGallery() {
 
             const itemRefPrec = document.createElement('div');
             itemRefPrec.className = 'item-details';
-            itemRefPrec.textContent = `PVP: ${pieza.precio}`;
+            itemRefPrec.textContent = `PVP: € ${pieza.precio}`;
 
             const addToCartBtn = document.createElement('button');
             addToCartBtn.textContent = 'Añadir al carrito';
@@ -75,6 +76,7 @@ function generateGallery() {
 }
 function addToCart(pieza) {
     cart.push(pieza);
+    tot = tot +pieza.precio;
     document.getElementById("cart-count").textContent = cart.length;
     renderCart();
 }
@@ -86,13 +88,14 @@ function renderCart() {
     
     cart.forEach((item, index) => {
         const li = document.createElement("li");
-        li.textContent = `${item.nombre}: ${item.dimensiones}  [${item.ref}] · ${item.precio} IVA incluido`;
+        li.textContent = `${item.nombre}: ${item.dimensiones}  [${item.ref}] · € ${item.precio} IVA incluido`;
 
         // Botón eliminar
         const removeBtn = document.createElement("button");
         removeBtn.textContent = "X";
         removeBtn.className = "remove-btn";
         removeBtn.addEventListener("click", () => {
+            tot = tot- cart[index].precio;
             cart.splice(index, 1);
             document.getElementById("cart-count").textContent = cart.length;
             renderCart();
@@ -101,6 +104,9 @@ function renderCart() {
         li.appendChild(removeBtn);
         cartItems.appendChild(li);
     });
+  const pa = document.createElement("p");
+  pa.textContent = `IMPORTE TOTAL DEL CARRITO: ${tot} IVA incluido`;
+    cartItems.appendChild(pa)
      document.getElementById("send-order").classList.toggle("hidden", cart.length === 0)
 }
 
@@ -134,7 +140,7 @@ document.getElementById("confirm-order").addEventListener("click", () => {
     }
 
     // Preparar datos del pedido
-    const orderDetails = cart.map(p =>  `${p.nombre}: ${p.dimensiones}  [${p.ref}] · ${p.precio} IVA incluido`).join("\n");
+    const orderDetails = cart.map(p =>  `${p.nombre}: ${p.dimensiones}  [${p.ref}] · € ${p.precio} IVA incluido`).join("\n");
 
     emailjs.send("service_mahnj3e", "template_ml4dyhm", { 
         customer_email: email,

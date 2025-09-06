@@ -23,7 +23,8 @@
                     </button>
                 </a>
 
-                <a href="https://1drv.ms/b/c/f01d867fe2f56848/EUho9eJ_hh0ggPCI5A0AAAAB6ULtqXEF5L6Tf5LAjwvg-Q"  target="_blank" rel="noopener noreferrer">
+                <a href="https://1drv.ms/b/c/f01d867fe2f56848/EUho9eJ_hh0ggPCI5A0AAAAB6ULtqXEF5L6Tf5LAjwvg-Q"
+                    target="_blank" rel="noopener noreferrer">
                     <button class="clickable" style="  margin-left:2rem;">
                         Catálogo PDF
                     </button>
@@ -43,19 +44,31 @@
         <small>
             <p>
                 Al ser artesanía, después de enviar el pedido nos pondremos en contacto contigo para establecer fechas
-                de
-                entrega y recogida en taller o el coste adicional de los portes.</p>
+                de entrega y recogida en taller o el coste adicional de los portes.</p>
         </small>
     </div>
 
     <!-- Modal formulario -->
     <div id="order-modal" class="hidden">
         <div class="modal-content">
-            <h3>Datos para el pedido</h3>
+            <h3>Envío de Pedido con compromiso de compra en Firme</h3>
+            <label>Nombre:</label>
+            <input type="text" id="customer-name" required><br>
+            <label>Apellidos:</label>
+            <input type="text" id="customer-apell" required><br>
+            <label>Dirección:</label>
+            <input type="text" id="customer-dir" required><br>
+            <label>Código Postal:</label>
+            <input type="text" id="customer-postal" placeholder="28013" pattern="^(0[1-9]|[1-4][0-9]|5[0-2])[0-9]{3}$"
+                required><br>
+            <label>Ciudad:</label>
+            <input type="text" id="customer-ciud" required><br>
+            <label>Provincia:</label>
+            <input type="text" id="customer-prov" required><br>
             <label>Email:</label>
             <input type="email" id="customer-email" required><br>
             <label>Teléfono:</label>
-            <input type="tel" id="customer-phone" required><br>
+            <input type="tel" id="customer-phone" required placeholder="+34 600123123" pattern="^\+?[0-9]{9,15}$"><br>
             <button id="confirm-order">Confirmar pedido</button>
             <button id="cancel-order">Cancelar</button>
         </div>
