@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="es">
 
 <head>
@@ -11,29 +11,24 @@
 
 <body>
 
-    <header> <img src="images/Vision1.jpg" style="max-width: 100%; height: auto;"><br><br>
+    <header>
+        <img src="images/Vision1.jpg" style="max-width: 100%; height: auto;"><br><br>
         <div class="container">
-
             <h1>Catálogo 2025-2026<br>Fina Pares</h1>
             <p class="ceramista">Ceramista </p>
             <p>
                 <a href="https://fina71.wixsite.com/fina" target="_blank" rel="noopener noreferrer">
-                    <button class="clickable">
-                        Web Artista
-                    </button>
+                    <button class="clickable">Web Artista</button>
                 </a>
-
                 <a href="https://1drv.ms/b/c/f01d867fe2f56848/EUho9eJ_hh0ggPCI5A0AAAAB6ULtqXEF5L6Tf5LAjwvg-Q"
                     target="_blank" rel="noopener noreferrer">
-                    <button class="clickable" style="  margin-left:2rem;">
-                        Catálogo PDF
-                    </button>
+                    <button class="clickable" style="margin-left:2rem;">Catálogo PDF</button>
                 </a>
-                </span>
             </p>
         </div>
     </header>
 
+    <!-- Carrito -->
     <div id="cart-icon">
         🛒 <span id="cart-count">0</span>
     </div>
@@ -44,12 +39,16 @@
         <small>
             <p>
                 Al ser artesanía, después de enviar el pedido nos pondremos en contacto contigo para establecer
-                fechas de entrega y recogida en taller o el coste adicional de los portes.</p>
+                fechas de entrega y recogida en taller o el coste adicional de los portes.
+            </p>
         </small>
         <hr>
-        <button id="send-order" class="hidden">Tramitar pedido</button> <button id="cerrarCarro">Ocultar</button>
+        <button id="send-order" class="hidden">Tramitar pedido</button>
+        <button id="cerrarCarro" >Ocultar</button>
+
+        <!-- Order Modal -->
         <div id="order-modal" class="hidden">
-            <div class="modal-content">
+            <div class="order-modal-content">
                 <h3>Pedido con compromiso Firme de compra</h3>
                 <label>Nombre:</label>
                 <input type="text" id="customer-name" required><br>
@@ -65,29 +64,35 @@
                 <label>Provincia:</label>
                 <input type="text" id="customer-prov" required><br>
                 <label>Email:</label>
-                <input type="email" id="customer-email" required  pattern="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$" ><br>
+                <input type="email" id="customer-email" required
+                    pattern="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$"><br>
                 <label>Teléfono:</label>
                 <input type="tel" id="customer-phone" required placeholder="+34 600123123"
                     pattern="^\+?[0-9]{9,15}$"><br>
-                <span id="botonera" >
+
+                <span id="botonera">
                     <button id="confirm-order">Confirmar pedido</button>
-                    <button id="cancel-order">Cancelar</button></span>
+                    <button id="cancel-order">Cancelar</button>
+                </span>
                 <span id="nobotonera" class="hidden">Procesando pedido</span>
             </div>
         </div>
     </div>
 
-
+    <!-- Galería -->
     <div class="container" id="gallery-container">
         <!-- Gallery sections will be dynamically inserted here -->
     </div>
 
-    <div id="myModal" class="modal">
+    <!-- Image Modal -->
+    <div id="myModal" class="image-modal">
         <span class="close" onclick="closeModal()">&times;</span>
         <div class="nav-arrow left-arrow" onclick="navigateModal(-1)">❮</div>
-        <img class="modal-content" id="modal-img">
+        <img class="image-modal-content" id="modal-img">
         <div class="nav-arrow right-arrow" onclick="navigateModal(1)">❯</div>
     </div>
+
+    <!-- Footer -->
     <div>
         <img src="images/Vision2.jpg" style="max-width: 100%; height: auto;">
         <footer>
@@ -95,17 +100,15 @@
                 <p>© 2025 Fina Pares. Todos los derechos reservados.</p>
                 <p>
                     <a href="tel:626253363">Tfo: 626 253 363</a> |
-                    <a href="mailto:fparesr@outlook.es">
-                        email: fparesr@outlook.es</a> |
-                    <a href="https://instagram.com/fina_pares" target="_blank">
-                        Instagram: fina_pares</a>
+                    <a href="mailto:fparesr@outlook.es">email: fparesr@outlook.es</a> |
+                    <a href="https://instagram.com/fina_pares" target="_blank">Instagram: fina_pares</a>
                 </p>
             </div>
         </footer>
     </div>
+
     <script src="data.js"></script>
     <script src="script2.js"></script>
-
 </body>
 
 </html>

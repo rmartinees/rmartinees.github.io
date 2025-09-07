@@ -128,11 +128,13 @@ document.getElementById("send-order").addEventListener("click", () => {
     }
     document.getElementById("send-order").classList.toggle("hidden");
     document.getElementById("order-modal").classList.remove("hidden");
+    
 });
 
 // Cancelar pedido
 document.getElementById("cancel-order").addEventListener("click", () => {
     document.getElementById("order-modal").classList.add("hidden");
+       document.getElementById("send-order").classList.remove("hidden");
 });
 
 // Confirmar pedido y enviar correo con EmailJS
