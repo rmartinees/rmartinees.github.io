@@ -163,7 +163,7 @@ const categorias = [
                 archivo: "IMG-20250522-WA00999.JPG",
                 material: "Porcelana",
                 dimensiones: "18 x 10 x 3,5 cm",
-                precio: 60,
+                precio: 75,
                 ref: "CL016/25"
             }
         ]
@@ -192,7 +192,7 @@ const categorias = [
                 archivo: "IMG_9893.JPG",
                 material: "Porcelana",
                 dimensiones: "9 x 12 x 3,5 cm",
-                precio: 60,
+                precio: 55,
                 ref: "CLS003/25"
             }
         ]
@@ -205,7 +205,7 @@ const categorias = [
                 archivo: "IMG_9888.JPG",
                 material: "Porcelana",
                 dimensiones: "10 x 10 x 3 cm",
-                precio: 50,
+                precio: 45,
                 ref: "CLP004/25"
             },
             {
@@ -213,11 +213,11 @@ const categorias = [
                 archivo: "IMG_9904.JPG",
                 material: "Porcelana",
                 dimensiones: "10 x 10 x 3 cm",
-                precio: 60,
+                precio: 50,
                 ref: "CLP005/25"
             },
             {
-                nombre: "Curvilíneo P Amarillo",
+                nombre: "Curvilíneo P Lineas Amarillo",
                 archivo: "IMG_9901.JPG",
                 material: "Porcelana",
                 dimensiones: "10 x 10 x 3 cm",
@@ -229,7 +229,7 @@ const categorias = [
                 archivo: "IMG_9899.JPG",
                 material: "Porcelana",
                 dimensiones: "10 x 10 x 3 cm",
-                precio: 60,
+                precio: 50,
                 ref: "CLP007/25"
             },
             {
@@ -237,15 +237,15 @@ const categorias = [
                 archivo: "IMG_9885.JPG",
                 material: "Porcelana",
                 dimensiones: "10 x 10 x 3 cm",
-                precio: 50,
-                ref: "CLP008/25"
+                precio: 45,
+                ref: "CLP008/25 solo amarillo"
             },
             {
                 nombre: "Curvilíneo P Azul",
                 archivo: "IMG_9886.JPG",
                 material: "Porcelana",
                 dimensiones: "10 x 10 x 3 cm",
-                precio: 50,
+                precio: 45,
                 ref: "CLP009/25"
             },
             {
@@ -253,7 +253,7 @@ const categorias = [
                 archivo: "IMG_9900.JPG",
                 material: "Porcelana",
                 dimensiones: "10 x 10 x 3 cm",
-                precio: 60,
+                precio: 50,
                 ref: "CLP010/25"
             },
 
@@ -262,7 +262,7 @@ const categorias = [
                 archivo: "IMG_9900.JPG",
                 material: "Porcelana",
                 dimensiones: "10 x 10 x 3 cm",
-                precio: 60,
+                precio: 50,
                 ref: "CLP011/25"
             },
             {
@@ -270,7 +270,7 @@ const categorias = [
                 archivo: "IMG_9889.JPG",
                 material: "Porcelana",
                 dimensiones: "10 x 10 x 3 cm",
-                precio: 50,
+                precio: 45,
                 ref: "CLP012/25"
             },
             {
@@ -278,7 +278,7 @@ const categorias = [
                 archivo: "IMG_9890.JPG",
                 material: "Porcelana",
                 dimensiones: "10 x 10 x 3 cm",
-                precio: 50,
+                precio: 45,
                 ref: "CLP013/25"
             },
             {
@@ -286,7 +286,7 @@ const categorias = [
                 archivo: "IMG-20250522-WA0053.JPG",
                 material: "Porcelana",
                 dimensiones: "10 x 10 x 3 cm",
-                precio: 50,
+                precio: 45,
                 ref: "CLP014/25"
             },
             {
@@ -294,7 +294,7 @@ const categorias = [
                 archivo: "IMG-20250522-WA0048.JPG",
                 material: "Porcelana",
                 dimensiones: "10 x 10 x 3 cm",
-                precio: 60,
+                precio: 50,
                 ref: "CLP015/25"
             },
             {
@@ -310,7 +310,7 @@ const categorias = [
                 archivo: "IMG-20250522-WA0046.JPG",
                 material: "Porcelana",
                 dimensiones: "10 x 10 x 3 cm",
-                precio: 50,
+                precio: 45,
                 ref: "CLP017/25"
             }
         ]
