@@ -52,7 +52,7 @@ const categorias = [
                 archivo: "IMG_9912.JPG",
                 material: "Porcelana",
                 dimensiones: "18 x 10 x 3,5 cm",
-                precio: 60,
+                precio: 65,
                 ref: "CL002/25"
             },
             {
@@ -60,7 +60,7 @@ const categorias = [
                 archivo: "IMG_9911.JPG",
                 material: "Porcelana",
                 dimensiones: "18 x 10 x 3,5 cm",
-                precio: 60,
+                precio: 65,
                 ref: "CL003/25"
             },
             {
@@ -68,7 +68,7 @@ const categorias = [
                 archivo: "IMG_9871.JPG",
                 material: "Porcelana",
                 dimensiones: "18 x 10 x 3,5 cm",
-                precio: 50,
+                precio: 60,
                 ref: "CL004/25"
             },
             {
@@ -76,7 +76,7 @@ const categorias = [
                 archivo: "IMG_9906.JPG",
                 material: "Porcelana",
                 dimensiones: "18 x 10 x 3,5 cm",
-                precio: 60,
+                precio: 65,
                 ref: "CL005/25"
             },
             {
@@ -84,7 +84,7 @@ const categorias = [
                 archivo: "IMG_9882.JPG",
                 material: "Porcelana",
                 dimensiones: "18 x 10 x 3,5 cm",
-                precio: 50,
+                precio: 60,
                 ref: "CL006/25"
             },
             {
@@ -92,7 +92,7 @@ const categorias = [
                 archivo: "IMG_9872.JPG",
                 material: "Porcelana",
                 dimensiones: "18 x 10 x 3,5 cm",
-                precio: 50,
+                precio: 60,
                 ref: "CL007/25"
             },
             {
@@ -100,14 +100,14 @@ const categorias = [
                 archivo: "IMG_9907.JPG",
                 material: "Porcelana",
                 dimensiones: "18 x 10 x 3,5 cm",
-                precio: 60,
+                precio: 65,
                 ref: "CL008/25"
             }, {
                 nombre: "Curvilíneo Azul",
                 archivo: "IMG_9883.JPG",
                 material: "Porcelana",
                 dimensiones: "18 x 10 x 3,5 cm",
-                precio: 50,
+                precio: 60,
                 ref: "CL009/25"
             },
             {
@@ -115,7 +115,7 @@ const categorias = [
                 archivo: "IMG_9914.JPG",
                 material: "Porcelana",
                 dimensiones: "18 x 10 x 3,5 cm",
-                precio: 60,
+                precio: 65,
                 ref: "CL010/25"
             },
             {
@@ -123,7 +123,7 @@ const categorias = [
                 archivo: "IMG-20250522-WA0045.JPG",
                 material: "Porcelana",
                 dimensiones: "18 x 10 x 3,5 cm",
-                precio: 50,
+                precio: 60,
                 ref: "CL011/25"
             },
             {
@@ -131,7 +131,7 @@ const categorias = [
                 archivo: "IMG-20250522-WA0050.JPG",
                 material: "Porcelana",
                 dimensiones: "18 x 10 x 3,5 cm",
-                precio: 50,
+                precio: 60,
                 ref: "CL012/25"
             },
             {
@@ -163,7 +163,7 @@ const categorias = [
                 archivo: "IMG-20250522-WA00999.JPG",
                 material: "Porcelana",
                 dimensiones: "18 x 10 x 3,5 cm",
-                precio: 50,
+                precio: 60,
                 ref: "CL016/25"
             }
         ]
