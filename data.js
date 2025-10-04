@@ -197,7 +197,7 @@ const categorias = [
             },
             {
                 nombre: "Curvilíneo S Rosa",
-                archivo: "IMG_3921.JPG",
+                archivo: "IMG_3986.JPG",
                 material: "Porcelana",
                 dimensiones: "11,5 x 17,5 x 3 cm",
                 precio: 80,
@@ -384,16 +384,16 @@ const categorias = [
                 nombre: "Espiral 5 elementos blanca",
                 archivo: "IMG_3956.JPG",
                 material: "Porcelana",
-                dimensiones: "9 x 12 x 3,5 cm",
-                precio: 60,
+                dimensiones: "19 x 9,5 x 8,5 cm",
+                precio: 100,
                 ref: "ESP001/25"
             },
             {
                 nombre: "Espiral 7 elementos blanca",
                 archivo: "IMG_3954.JPG",
                 material: "Porcelana",
-                dimensiones: "9 x 12 x 3,5 cm",
-                precio: 60,
+                dimensiones: "28 x 9 x 8,5 cm",
+                precio: 140,
                 ref: "ESP002/25"
             }
         ]
