@@ -176,7 +176,7 @@ const categorias = [
                 archivo: "IMG_9892.JPG",
                 material: "Porcelana",
                 dimensiones: "9 x 12 x 3,5 cm",
-                precio: 55,
+                precio: 60,
                 ref: "CLS001/25"
             },
             {
@@ -184,7 +184,7 @@ const categorias = [
                 archivo: "IMG_9896.JPG",
                 material: "Porcelana",
                 dimensiones: "9 x 12 x 3,5 cm",
-                precio: 55,
+                precio: 60,
                 ref: "CLS002/25"
             },
             {
@@ -192,8 +192,24 @@ const categorias = [
                 archivo: "IMG_9893.JPG",
                 material: "Porcelana",
                 dimensiones: "9 x 12 x 3,5 cm",
-                precio: 55,
+                precio: 60,
                 ref: "CLS003/25"
+            },
+            {
+                nombre: "Curvilíneo S Rosa",
+                archivo: "IMG_3921.JPG",
+                material: "Porcelana",
+                dimensiones: "11,5 x 17,5 x 3 cm",
+                precio: 80,
+                ref: "CLS004/25"
+            },
+            {
+                nombre: "Curvilíneo S Rojo Lineas",
+                archivo: "IMG_3918.JPG",
+                material: "Porcelana",
+                dimensiones: "26,5 x 12 x 3 cm",
+                precio: 110,
+                ref: "CLS005/25"
             }
         ]
     },
@@ -361,6 +377,27 @@ const categorias = [
 
         ]
     },
+ {
+        titulo: "Espirale Silente",
+        piezas: [
+            {
+                nombre: "Espiral 5 elementos blanca",
+                archivo: "IMG_3956.JPG",
+                material: "Porcelana",
+                dimensiones: "9 x 12 x 3,5 cm",
+                precio: 60,
+                ref: "ESP001/25"
+            },
+            {
+                nombre: "Espiral 7 elementos blanca",
+                archivo: "IMG_3954.JPG",
+                material: "Porcelana",
+                dimensiones: "9 x 12 x 3,5 cm",
+                precio: 60,
+                ref: "ESP002/25"
+            }
+        ]
+    },    
     {
         titulo: "Jarrones",
         piezas: [
