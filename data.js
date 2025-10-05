@@ -233,14 +233,6 @@ const categorias = [
                 ref: "CLP005/25"
             },
             {
-                nombre: "Curvilíneo P Lineas Amarillo",
-                archivo: "IMG_9901.JPG",
-                material: "Porcelana",
-                dimensiones: "10 x 10 x 3 cm",
-                precio: 50,
-                ref: "CLP006/25"
-            },
-            {
                 nombre: "Curvilíneo P Líneas Blancas y Marrones",
                 archivo: "IMG_9899.JPG",
                 material: "Porcelana",
@@ -271,15 +263,6 @@ const categorias = [
                 dimensiones: "10 x 10 x 3 cm",
                 precio: 50,
                 ref: "CLP010/25"
-            },
-
-            {
-                nombre: "Curvilíneo P Líneas Amarillas",
-                archivo: "IMG_9900.JPG",
-                material: "Porcelana",
-                dimensiones: "10 x 10 x 3 cm",
-                precio: 50,
-                ref: "CLP011/25"
             },
             {
                 nombre: "Curvilíneo P Marrón",
@@ -372,7 +355,7 @@ const categorias = [
                 ref: "ESP002/25"
             }
         ]
-    },    
+    },
     {
         titulo: "Jarrones",
         piezas: [
@@ -392,13 +375,13 @@ const categorias = [
                 precio: 85,
                 ref: "JAR002/25"
             },
-             {
+            {
                 nombre: "Jarrón con flores",
                 archivo: "IMG_9939.JPG",
                 material: "Refractario",
                 dimensiones: "6 x 18 x 6 cm",
-                precio: Consultar,
-                ref: "JAR003/25"
+                precio: 0,
+                ref: "JAR003/25 precio pendiente"
             }
         ]
     },
@@ -409,7 +392,7 @@ const categorias = [
                 nombre: "Pufs en Conjunto",
                 archivo: "IMG_20241213_130923.JPG",
                 material: "Refractario",
-                dimensiones: "", 
+                dimensiones: "",
                 precio: 0,
                 ref: "No en venta"
             },
