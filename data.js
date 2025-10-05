@@ -1,4 +1,4 @@
-const categorias = [
+ const categorias = [
     {
         titulo: "Curvilíneos Grandes",
         piezas: [
@@ -336,10 +336,10 @@ const categorias = [
         ]
     },
     {
-        titulo: "Espirale Silente",
+        titulo: "Espirales Silentes",
         piezas: [
             {
-                nombre: "Espiral 5 elementos blanca",
+                nombre: "Espiral 5 elementos",
                 archivo: "IMG_3956.JPG",
                 material: "Porcelana",
                 dimensiones: "19 x 9,5 x 8,5 cm",
@@ -347,7 +347,7 @@ const categorias = [
                 ref: "ESP001/25"
             },
             {
-                nombre: "Espiral 7 elementos blanca",
+                nombre: "Espiral 7 elementos",
                 archivo: "IMG_3954.JPG",
                 material: "Porcelana",
                 dimensiones: "28 x 9 x 8,5 cm",
