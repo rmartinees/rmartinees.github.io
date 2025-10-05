@@ -349,35 +349,10 @@ const categorias = [
                 dimensiones: "15,5 x 14,5 x 12 cm",
                 precio: 80,
                 ref: "POL002/25"
-            },
-            {
-                nombre: "Poliedro Rojo o Naranja",
-                archivo: "IMG_9852.JPG",
-                material: "Porcelana",
-                dimensiones: "15,5 x 14,5 x 12 cm",
-                precio: 80,
-                ref: "POL003/25"
-            },
-            {
-                nombre: "Poliedro Naranja",
-                archivo: "IMG_9855.JPG",
-                material: "Porcelana",
-                dimensiones: "15,5 x 14,5 x 12 cm",
-                precio: 80,
-                ref: "POL004/25"
-            },
-            {
-                nombre: "Poliedro Rojo",
-                archivo: "IMG_9850.JPG",
-                material: "Porcelana",
-                dimensiones: "15,5 x 14,5 x 12 cm",
-                precio: 80,
-                ref: "POL005/25"
-            },
-
+            }
         ]
     },
- {
+    {
         titulo: "Espirale Silente",
         piezas: [
             {
@@ -422,7 +397,7 @@ const categorias = [
                 archivo: "IMG_9939.JPG",
                 material: "Refractario",
                 dimensiones: "6 x 18 x 6 cm",
-                precio: 115,
+                precio: Consultar,
                 ref: "JAR003/25"
             }
         ]
