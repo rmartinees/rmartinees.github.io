@@ -1,4 +1,4 @@
- const categorias = [
+const categorias = [
     {
         titulo: "Curvilíneos S",
         piezas: [
@@ -276,42 +276,44 @@
                 ref: "CL016/25"
             }
         ]
+    }, 
+    {
+        titulo: "Curvilíneos Grandes",
+        piezas: [
+            {
+                nombre: "Curvilíneo Grande Líneas Negras",
+                archivo: "IMG_9844.JPG",
+                material: "Refractario",
+                dimensiones: "15 x 27 x 5 cm",
+                precio: 175,
+                ref: "CG001/25"
+            },
+            {
+                nombre: "Curvilíneo Grande Líneas Blancas",
+                archivo: "IMG_9865.JPG",
+                material: "Refractario",
+                dimensiones: "14 x 25 x 4 cm",
+                precio: 175,
+                ref: "CG002/25"
+            },
+            {
+                nombre: "Curvilíneo Grande Líneas Color",
+                archivo: "IMG_9859.JPG",
+                material: "Refractario",
+                dimensiones: "14 x 25 x 4 cm",
+                precio: 175,
+                ref: "CG003/25"
+            },
+            {
+                nombre: "Curvilíneo Verde, Líneas Amarillas",
+                archivo: "IMG-20250522-WA0051.JPG",
+                material: "Porcelana",
+                dimensiones: "14 x 25 x 4 cm",
+                precio: 115,
+                ref: "CG004/25"
+            }
+        ]
     },
-    titulo: "Curvilíneos Grandes",
-    piezas: [
-        {
-            nombre: "Curvilíneo Grande Líneas Negras",
-            archivo: "IMG_9844.JPG",
-            material: "Refractario",
-            dimensiones: "15 x 27 x 5 cm",
-            precio: 175,
-            ref: "CG001/25"
-        },
-        {
-            nombre: "Curvilíneo Grande Líneas Blancas",
-            archivo: "IMG_9865.JPG",
-            material: "Refractario",
-            dimensiones: "14 x 25 x 4 cm",
-            precio: 175,
-            ref: "CG002/25"
-        },
-        {
-            nombre: "Curvilíneo Grande Líneas Color",
-            archivo: "IMG_9859.JPG",
-            material: "Refractario",
-            dimensiones: "14 x 25 x 4 cm",
-            precio: 175,
-            ref: "CG003/25"
-        },
-        {
-            nombre: "Curvilíneo Verde, Líneas Amarillas",
-            archivo: "IMG-20250522-WA0051.JPG",
-            material: "Porcelana",
-            dimensiones: "14 x 25 x 4 cm",
-            precio: 115,
-            ref: "CG004/25"
-        }
-    ],
     {
         titulo: "Poliedros",
         piezas: [
