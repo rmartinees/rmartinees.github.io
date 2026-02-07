@@ -359,7 +359,7 @@ const categorias = [
     }, 
     {
         titulo: "Curvilíneos S",
-        pi  : [    
+        piezas  : [    
             {
                 nombre: "Curvilíneo S Naranja",
                 archivo: "IMG_9892.JPG",
