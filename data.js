@@ -357,9 +357,9 @@ const categorias = [
             }
         ]
     }, 
-      {
+    {
         titulo: "Curvilíneos S",
-        piezas: [    
+        pi  : [    
             {
                 nombre: "Curvilíneo S Naranja",
                 archivo: "IMG_9892.JPG",
@@ -384,7 +384,11 @@ const categorias = [
                 precio: 70,
                 ref: "CLS003/25"
             },
-            
+         ]
+    },
+    {
+        titulo: "Curvilíneos M",
+        piezas: [                
             {
                 nombre: "Curvilíneo M Naranja",
                 archivo: "CLM001.JPG",
@@ -418,7 +422,7 @@ const categorias = [
                 ref: "CLM004/26"
             },
               {
-                nombre: "Curvilíneo S Rosa",
+                nombre: "Curvilíneo M Rosa",
                 archivo: "IMG_3986.JPG",
                 material: "Porcelana",
                 dimensiones: "11,5 x 17,5 x 3 cm",
