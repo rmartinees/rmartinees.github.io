@@ -557,14 +557,7 @@ const categorias = [
                 precio: 175,
                 ref: "CG003/25"
             },
-            {
-                nombre: "Curvilíneo Verde, Líneas Amarillas",
-                archivo: "IMG-20250522-WA0051.JPG",
-                material: "Porcelana",
-                dimensiones: "14 x 25 x 4 cm",
-                precio: 115,
-                ref: "CG004/25"
-            }
+            
         ]
     },
     {
