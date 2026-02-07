@@ -358,8 +358,33 @@ const categorias = [
         ]
     }, 
       {
-        titulo: "Curvilíneos M",
-        piezas: [
+        titulo: "Curvilíneos S",
+        piezas: [    
+            {
+                nombre: "Curvilíneo S Naranja",
+                archivo: "IMG_9892.JPG",
+                material: "Porcelana",
+                dimensiones: "9 x 12 x 3,5 cm",
+                precio: 70,
+                ref: "CLS001/25"
+            },
+            {
+                nombre: "Curvilíneo S Líneas Amarilla-Negras",
+                archivo: "IMG_9896.JPG",
+                material: "Porcelana",
+                dimensiones: "9 x 12 x 3,5 cm",
+                precio: 70,
+                ref: "CLS002/25"
+            },
+            {
+                nombre: "Curvilíneo S Menta",
+                archivo: "IMG_9893.JPG",
+                material: "Porcelana",
+                dimensiones: "9 x 12 x 3,5 cm",
+                precio: 70,
+                ref: "CLS003/25"
+            },
+            
             {
                 nombre: "Curvilíneo M Naranja",
                 archivo: "CLM001.JPG",
@@ -392,6 +417,14 @@ const categorias = [
                 precio: 85,
                 ref: "CLM004/26"
             },
+              {
+                nombre: "Curvilíneo S Rosa",
+                archivo: "IMG_3986.JPG",
+                material: "Porcelana",
+                dimensiones: "11,5 x 17,5 x 3 cm",
+                precio: 85,
+                ref: "CLS004/25"
+            },
             {
                 nombre: "Curvilíneo M Azul, Líneas Blancas",
                 archivo: "CLM005.JPG",
@@ -400,51 +433,21 @@ const categorias = [
                 precio: 85,
                 ref: "CLM005/26"
             },
-            {
+             {
                 nombre: "Curvilíneo M Rojo, Lineas Blancas",
                 archivo: "CLM006.JPG",
                 material: "Porcelana",
-                dimensiones: "26,5 x 12 x 3 cm",
+                dimensiones: "10 x 10 x 11 cm",
                 precio: 85,
                 ref: "CLM006/26"
             }
+           
         ]
     },
+    
     {
-        titulo: "Curvilíneos S",
+        titulo: "Curvilíneos G",
         piezas: [
-            {
-                nombre: "Curvilíneo S Naranja",
-                archivo: "IMG_9892.JPG",
-                material: "Porcelana",
-                dimensiones: "9 x 12 x 3,5 cm",
-                precio: 60,
-                ref: "CLS001/25"
-            },
-            {
-                nombre: "Curvilíneo S Líneas Amarilla-Negras",
-                archivo: "IMG_9896.JPG",
-                material: "Porcelana",
-                dimensiones: "9 x 12 x 3,5 cm",
-                precio: 60,
-                ref: "CLS002/25"
-            },
-            {
-                nombre: "Curvilíneo S Menta",
-                archivo: "IMG_9893.JPG",
-                material: "Porcelana",
-                dimensiones: "9 x 12 x 3,5 cm",
-                precio: 60,
-                ref: "CLS003/25"
-            },
-            {
-                nombre: "Curvilíneo S Rosa",
-                archivo: "IMG_3986.JPG",
-                material: "Porcelana",
-                dimensiones: "11,5 x 17,5 x 3 cm",
-                precio: 80,
-                ref: "CLS004/25"
-            },
             {
                 nombre: "Curvilíneo S Rojo Lineas",
                 archivo: "IMG_3918.JPG",
