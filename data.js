@@ -249,7 +249,7 @@ const categorias = [
                 archivo: "IMG_9881.JPG",
                 material: "Porcelana",
                 dimensiones: "18 x 10 x 3,5 cm",
-                precio: 75,
+                precio: 70,
                 ref: "CL001/25"
             },
             {
@@ -257,7 +257,7 @@ const categorias = [
                 archivo: "IMG_9912.JPG",
                 material: "Porcelana",
                 dimensiones: "18 x 10 x 3,5 cm",
-                precio: 65,
+                precio: 70,
                 ref: "CL002/25"
             },
             {
@@ -265,7 +265,7 @@ const categorias = [
                 archivo: "IMG_9911.JPG",
                 material: "Porcelana",
                 dimensiones: "18 x 10 x 3,5 cm",
-                precio: 65,
+                precio: 70,
                 ref: "CL003/25"
             },
             {
@@ -273,7 +273,7 @@ const categorias = [
                 archivo: "IMG_9871.JPG",
                 material: "Porcelana",
                 dimensiones: "18 x 10 x 3,5 cm",
-                precio: 60,
+                precio: 70,
                 ref: "CL004/25"
             },
             {
@@ -281,7 +281,7 @@ const categorias = [
                 archivo: "IMG_9906.JPG",
                 material: "Porcelana",
                 dimensiones: "18 x 10 x 3,5 cm",
-                precio: 65,
+                precio: 70,
                 ref: "CL005/25"
             },
             {
@@ -289,7 +289,7 @@ const categorias = [
                 archivo: "IMG_9882.JPG",
                 material: "Porcelana",
                 dimensiones: "18 x 10 x 3,5 cm",
-                precio: 60,
+                precio: 70,
                 ref: "CL006/25"
             },
             {
@@ -297,7 +297,7 @@ const categorias = [
                 archivo: "IMG_9872.JPG",
                 material: "Porcelana",
                 dimensiones: "18 x 10 x 3,5 cm",
-                precio: 60,
+                precio: 70,
                 ref: "CL007/25"
             },
             {
@@ -305,14 +305,14 @@ const categorias = [
                 archivo: "IMG_9907.JPG",
                 material: "Porcelana",
                 dimensiones: "18 x 10 x 3,5 cm",
-                precio: 65,
+                precio: 70,
                 ref: "CL008/25"
             }, {
                 nombre: "Curvilíneo Azul",
                 archivo: "IMG_9883.JPG",
                 material: "Porcelana",
                 dimensiones: "18 x 10 x 3,5 cm",
-                precio: 60,
+                precio: 70,
                 ref: "CL009/25"
             },
             {
@@ -320,47 +320,31 @@ const categorias = [
                 archivo: "IMG_9914.JPG",
                 material: "Porcelana",
                 dimensiones: "18 x 10 x 3,5 cm",
-                precio: 65,
+                precio: 70,
                 ref: "CL010/25"
-            },
-            {
-                nombre: "Curvilíneo Marrón",
-                archivo: "IMG-20250522-WA0045.JPG",
-                material: "Porcelana",
-                dimensiones: "18 x 10 x 3,5 cm",
-                precio: 60,
-                ref: "CL011/25"
             },
             {
                 nombre: "Curvilíneo Naranja",
                 archivo: "IMG-20250522-WA0050.JPG",
                 material: "Porcelana",
                 dimensiones: "18 x 10 x 3,5 cm",
-                precio: 60,
+                precio: 70,
                 ref: "CL012/25"
             },
             {
-                nombre: "Curvilíneo Multicolor",
+                nombre: "Curvilíneo Policromado",
                 archivo: "IMG-20250522-WA0044.JPG",
                 material: "Porcelana",
                 dimensiones: "18 x 10 x 3,5 cm",
-                precio: "75",
+                precio: "70",
                 ref: "CL013/25"
-            },
-            {
-                nombre: "Curvilíneo Amarillo, Líneas Azules",
-                archivo: "IMG-20250522-WA0052.JPG",
-                material: "Porcelana",
-                dimensiones: "18 x 10 x 3,5 cm",
-                precio: 60,
-                ref: "CL014/25"
             },
             {
                 nombre: "Curvilíneo Salmón, Líneas Marrones",
                 archivo: "IMG-20250522-WA0043.JPG",
                 material: "Porcelana",
                 dimensiones: "18 x 10 x 3,5 cm",
-                precio: 60,
+                precio: 70,
                 ref: "CL015/25"
             },
             {
@@ -368,12 +352,64 @@ const categorias = [
                 archivo: "IMG-20250522-WA00999.JPG",
                 material: "Porcelana",
                 dimensiones: "18 x 10 x 3,5 cm",
-                precio: 75,
+                precio: 70,
                 ref: "CL016/25"
             }
         ]
     }, 
-    
+      {
+        titulo: "Curvilíneos M",
+        piezas: [
+            {
+                nombre: "Curvilíneo M Naranja",
+                archivo: "CLM001.JPG",
+                material: "Porcelana",
+                dimensiones: "9 x 12 x 3,5 cm",
+                precio: 85,
+                ref: "CLM001/26"
+            },
+            {
+                nombre: "Curvilíneo M Marrón, Líneas Naranjas",
+                archivo: "CLM002.JPG",
+                material: "Porcelana",
+                dimensiones: "9 x 12 x 3,5 cm",
+                precio: 85,
+                ref: "CLM002/26"
+            },
+            {
+                nombre: "Curvilíneo M Amarillo, Líneas Verdes",
+                archivo: "CLM003.JPG",
+                material: "Porcelana",
+                dimensiones: "9 x 12 x 3,5 cm",
+                precio: 85,
+                ref: "CLM003/26"
+            },
+            {
+                nombre: "Curvilíneo M Azul, Líneas Blancas",
+                archivo: "CLM004.JPG",
+                material: "Porcelana",
+                dimensiones: "11,5 x 17,5 x 3 cm",
+                precio: 85,
+                ref: "CLM004/26"
+            },
+            {
+                nombre: "Curvilíneo M Azul, Líneas Blancas",
+                archivo: "CLM005.JPG",
+                material: "Porcelana",
+                dimensiones: "26,5 x 12 x 3 cm",
+                precio: 85,
+                ref: "CLM005/26"
+            },
+            {
+                nombre: "Curvilíneo M Rojo, Lineas Blancas",
+                archivo: "CLM006.JPG",
+                material: "Porcelana",
+                dimensiones: "26,5 x 12 x 3 cm",
+                precio: 85,
+                ref: "CLM006/26"
+            }
+        ]
+    },
     {
         titulo: "Curvilíneos S",
         piezas: [
