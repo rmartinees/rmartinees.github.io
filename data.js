@@ -364,7 +364,7 @@ const categorias = [
                 nombre: "Curvilíneo M Naranja",
                 archivo: "CLM001.JPG",
                 material: "Porcelana",
-                dimensiones: "9 x 12 x 3,5 cm",
+                dimensiones: "12,5 x 16 x 3 cm",
                 precio: 85,
                 ref: "CLM001/26"
             },
@@ -372,15 +372,15 @@ const categorias = [
                 nombre: "Curvilíneo M Marrón, Líneas Naranjas",
                 archivo: "CLM002.JPG",
                 material: "Porcelana",
-                dimensiones: "9 x 12 x 3,5 cm",
+                dimensiones: "12,5 x 16 x 3 cm",
                 precio: 85,
                 ref: "CLM002/26"
             },
             {
                 nombre: "Curvilíneo M Amarillo, Líneas Verdes",
                 archivo: "CLM003.JPG",
-                material: "Porcelana",
-                dimensiones: "9 x 12 x 3,5 cm",
+                material: "Porcelana", 
+                dimensiones: "12,5 x 16 x 3 cm",
                 precio: 85,
                 ref: "CLM003/26"
             },
@@ -388,7 +388,7 @@ const categorias = [
                 nombre: "Curvilíneo M Azul, Líneas Blancas",
                 archivo: "CLM004.JPG",
                 material: "Porcelana",
-                dimensiones: "11,5 x 17,5 x 3 cm",
+                dimensiones: "12,5 x 19 x 3,5 cm",
                 precio: 85,
                 ref: "CLM004/26"
             },
@@ -396,7 +396,7 @@ const categorias = [
                 nombre: "Curvilíneo M Azul, Líneas Blancas",
                 archivo: "CLM005.JPG",
                 material: "Porcelana",
-                dimensiones: "26,5 x 12 x 3 cm",
+                dimensiones: "12,5 x 19 x 3,5 cm",
                 precio: 85,
                 ref: "CLM005/26"
             },
