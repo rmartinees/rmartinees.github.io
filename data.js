@@ -32,7 +32,7 @@ const categorias = [
                 ref: "CLP021/26"
             }, {
                 nombre: "Curvilíneo Blanco, Líneas Amarillo/Naranja",
-                archivo: "CLP02226.JPG"
+                archivo: "CLP02226.JPG",
                 material: "Porcelana",
                 dimensiones: "10 x 10 x 3 cm",
                 precio: 50,
