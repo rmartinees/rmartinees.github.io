@@ -2,12 +2,48 @@ const categorias = [
     {
         titulo: "Curvilíneos Pequeños",
         piezas: [
+             {
+                nombre: "Curvilíneo Marrón, Líneas Naranjas",
+                archivo: "CLP01826.JPG",
+                material: "Porcelana",
+                dimensiones: "10 x 10 x 3 cm",
+                precio: 50,
+                ref: "CLP018/26"
+            }, {
+                nombre: "Curvilíneo Azul, Líneas Verdes",
+                archivo: "CLP01926.JPG",
+                material: "Porcelana",
+                dimensiones: "10 x 10 x 3 cm",
+                precio: 50,
+                ref: "CLP019/26"
+            }, {
+                nombre: "Curvilíneo Verde, Líneas Verde Oscuras",
+                archivo:"CLP02026.JPG",
+                material: "Porcelana",
+                dimensiones: "10 x 10 x 3 cm",
+                precio: 50,
+                ref: "CLP020/26"
+            }, {
+                nombre: "Curvilíneo Naranja, Líneas Amarillas",
+                archivo:"CLP02126.JPG",
+                material: "Porcelana",
+                dimensiones: "10 x 10 x 3 cm",
+                precio: 50,
+                ref: "CLP021/26"
+            }, {
+                nombre: "Curvilíneo Blanco, Líneas Amarillo/Naranja",
+                archivo: "CLP02226.JPG"
+                material: "Porcelana",
+                dimensiones: "10 x 10 x 3 cm",
+                precio: 50,
+                ref: "CLP022/26"
+            },
             {
                 nombre: "Curvilíneo P Naranja",
                 archivo: "IMG_9888.JPG",
                 material: "Porcelana",
                 dimensiones: "10 x 10 x 3 cm",
-                precio: 45,
+                precio: 50,
                 ref: "CLP004/25"
             },
             {
@@ -28,10 +64,10 @@ const categorias = [
             },
             {
                 nombre: "Curvilíneo P Amarillo",
-                archivo: "IMG_9885.JPG",
+                archivo: "IMG_9885amarilla.JPG",
                 material: "Porcelana",
                 dimensiones: "10 x 10 x 3 cm",
-                precio: 45,
+                precio: 50,
                 ref: "CLP008/25 solo amarillo"
             },
             {
@@ -39,7 +75,7 @@ const categorias = [
                 archivo: "IMG_9886.JPG",
                 material: "Porcelana",
                 dimensiones: "10 x 10 x 3 cm",
-                precio: 45,
+                precio: 50,
                 ref: "CLP009/25"
             },
             {
@@ -55,7 +91,7 @@ const categorias = [
                 archivo: "IMG_9889.JPG",
                 material: "Porcelana",
                 dimensiones: "10 x 10 x 3 cm",
-                precio: 45,
+                precio: 50,
                 ref: "CLP012/25"
             },
             {
@@ -63,7 +99,7 @@ const categorias = [
                 archivo: "IMG_9890.JPG",
                 material: "Porcelana",
                 dimensiones: "10 x 10 x 3 cm",
-                precio: 45,
+                precio: 50,
                 ref: "CLP013/25"
             },
             {
@@ -71,7 +107,7 @@ const categorias = [
                 archivo: "IMG-20250522-WA0053.JPG",
                 material: "Porcelana",
                 dimensiones: "10 x 10 x 3 cm",
-                precio: 45,
+                precio: 50,
                 ref: "CLP014/25"
             },
             {
@@ -83,7 +119,7 @@ const categorias = [
                 ref: "CLP015/25"
             },
             {
-                nombre: "Curvilíneo Amarillo, Líneas Azules",
+                nombre: "Curvilíneo Verde, Líneas Azules",
                 archivo: "IMG-20250522-WA0047.JPG",
                 material: "Porcelana",
                 dimensiones: "23 x 16 x 3 cm",
@@ -92,17 +128,122 @@ const categorias = [
             },
             {
                 nombre: "Curvilíneo Amarillo Lima",
-                archivo: "IMG-20250522-WA0046.JPG",
+                archivo: "AmarilloLima.JPG",
                 material: "Porcelana",
                 dimensiones: "10 x 10 x 3 cm",
-                precio: 45,
+                precio: 50,
                 ref: "CLP017/25"
-            }
+            },
+            
         ]
     },
     {
         titulo: "Curvilíneos",
         piezas: [
+             {
+                nombre: "Curvilíneo Rojo",
+                archivo: "CL01726.JPG",
+                material: "Porcelana",
+                dimensiones: "18 x 10 x 3,5 cm",
+                precio: 70,
+                ref: "CL017/26"
+            },
+            {
+                nombre: "Curvilíneo Marrón, Líneas Negras",
+                archivo: "CL01826.JPG",
+                material: "Porcelana",
+                dimensiones: "18 x 10 x 3,5 cm",
+                precio: 70,
+                ref: "CL018/26"
+            },
+            {
+                nombre: "Curvilíneo Policromado",
+                archivo: "CL01926.JPG",
+                material: "Porcelana",
+                dimensiones: "18 x 10 x 3,5 cm",
+                precio: 70,
+                ref: "CL019/26"
+            },
+            {
+                nombre: "Curvilíneo Azul, Líneas Blancas",
+                archivo: "CL02026.JPG",
+                material: "Porcelana",
+                dimensiones: "18 x 10 x 3,5 cm",
+                precio: 70,
+                ref: "CL020/26"
+            },
+            {
+                nombre: "Curvilíneo Policromado",
+                archivo: "CL02126.JPG",
+                material: "Porcelana",
+                dimensiones: "18 x 10 x 3,5 cm",
+                precio: 70,
+                ref: "CL021/26"
+            },
+            {
+                nombre: "Curvilíneo Rojo, Líneas Naranjas",
+                archivo: "CL02226.JPG",
+                material: "Porcelana",
+                dimensiones: "18 x 10 x 3,5 cm",
+                precio: 70,
+                ref: "CL022/26"
+            },
+            {
+                nombre: "Curvilíneo Verde, Líneas Amarillas",
+                archivo: "CL02326.JPG",
+                material: "Porcelana",
+                dimensiones: "18 x 10 x 3,5 cm",
+                precio: 70,
+                ref: "CL023/26"
+            },
+            {
+                nombre: "Curvilíneo Policromado",
+                archivo: "CL02426.JPG",
+                material: "Porcelana",
+                dimensiones: "18 x 10 x 3,5 cm",
+                precio: 70,
+                ref: "CL024/26"
+            },
+            {
+                nombre: "Curvilíneo Salmón, Líneas Marrón",
+                archivo: "CL02526.JPG",
+                material: "Porcelana",
+                dimensiones: "18 x 10 x 3,5 cm",
+                precio: 70,
+                ref: "CL025/26"
+            },
+            {
+                nombre: "Curvilíneo Amarillo, Líneas Azul",
+                archivo: "CL02626.JPG",
+                material: "Porcelana",
+                dimensiones: "18 x 10 x 3,5 cm",
+                precio: 70,
+                ref: "CL026/26"
+            },
+            {
+                nombre: "Curvilíneo Blanco, Líneas Negras",
+                archivo: "CL02726.JPG",
+                material: "Porcelana",
+                dimensiones: "18 x 10 x 3,5 cm",
+                precio: 70,
+                ref: "CL027/26"
+            },
+            {
+                nombre: "Curvilíneo Amarillo, Líneas Naranja",
+                archivo: "CL02826.JPG",
+                material: "Porcelana",
+                dimensiones: "18 x 10 x 3,5 cm",
+                precio: 70,
+                ref: "CL028/26"
+            },
+            {
+                nombre: "Curvilíneo Policromado",
+                archivo: "CL02926.JPG",
+                material: "Porcelana",
+                dimensiones: "18 x 10 x 3,5 cm",
+                precio: 70,
+                ref: "CL029/26"
+            },
             {
                 nombre: "Curvilíneo Policromado",
                 archivo: "IMG_9881.JPG",
