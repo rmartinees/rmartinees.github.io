@@ -37,6 +37,13 @@ const categorias = [
                 dimensiones: "10 x 10 x 3 cm",
                 precio: 50,
                 ref: "CLP022/26"
+            }, {
+                nombre: "Curvilíneo P Amarillo",
+                archivo: "IMG_9885amarilla.JPG",
+                material: "Porcelana",
+                dimensiones: "10 x 10 x 3 cm",
+                precio: 50,
+                ref: "CLP008/25 solo amarillo"
             },
             {
                 nombre: "Curvilíneo P Naranja",
@@ -46,14 +53,7 @@ const categorias = [
                 precio: 50,
                 ref: "CLP004/25"
             },
-            {
-                nombre: "Curvilíneo P Líneas Amarillas y Negras",
-                archivo: "IMG_9904.JPG",
-                material: "Porcelana",
-                dimensiones: "10 x 10 x 3 cm",
-                precio: 50,
-                ref: "CLP005/25"
-            },
+          
             {
                 nombre: "Curvilíneo P Líneas Blancas y Marrones",
                 archivo: "IMG_9899.JPG",
@@ -63,20 +63,19 @@ const categorias = [
                 ref: "CLP007/25"
             },
             {
-                nombre: "Curvilíneo P Amarillo",
-                archivo: "IMG_9885amarilla.JPG",
-                material: "Porcelana",
-                dimensiones: "10 x 10 x 3 cm",
-                precio: 50,
-                ref: "CLP008/25 solo amarillo"
-            },
-            {
                 nombre: "Curvilíneo P Azul",
                 archivo: "IMG_9886.JPG",
                 material: "Porcelana",
                 dimensiones: "10 x 10 x 3 cm",
                 precio: 50,
                 ref: "CLP009/25"
+            },  {
+                nombre: "Curvilíneo P Líneas Amarillas y Negras",
+                archivo: "IMG_9904.JPG",
+                material: "Porcelana",
+                dimensiones: "10 x 10 x 3 cm",
+                precio: 50,
+                ref: "CLP005/25"
             },
             {
                 nombre: "Curvilíneo P Amarillo, Líneas naranjas",
@@ -293,28 +292,13 @@ const categorias = [
                 ref: "CL006/25"
             },
             {
-                nombre: "Curvilíneo Rojo",
-                archivo: "IMG_9872.JPG",
-                material: "Porcelana",
-                dimensiones: "18 x 10 x 3,5 cm",
-                precio: 70,
-                ref: "CL007/25"
-            },
-            {
                 nombre: "Curvilíneo Líneas Azules",
                 archivo: "IMG_9907.JPG",
                 material: "Porcelana",
                 dimensiones: "18 x 10 x 3,5 cm",
                 precio: 70,
                 ref: "CL008/25"
-            }, {
-                nombre: "Curvilíneo Azul",
-                archivo: "IMG_9883.JPG",
-                material: "Porcelana",
-                dimensiones: "18 x 10 x 3,5 cm",
-                precio: 70,
-                ref: "CL009/25"
-            },
+            }, 
             {
                 nombre: "Curvilíneo Verde, Líneas Amarillas",
                 archivo: "IMG_9914.JPG",
@@ -330,6 +314,13 @@ const categorias = [
                 dimensiones: "18 x 10 x 3,5 cm",
                 precio: 70,
                 ref: "CL012/25"
+            }, {
+                nombre: "Curvilíneo Salmón, Líneas Marrones",
+                archivo: "IMG-20250522-WA0043.JPG",
+                material: "Porcelana",
+                dimensiones: "18 x 10 x 3,5 cm",
+                precio: 70,
+                ref: "CL015/25"
             },
             {
                 nombre: "Curvilíneo Policromado",
@@ -339,14 +330,7 @@ const categorias = [
                 precio: "70",
                 ref: "CL013/25"
             },
-            {
-                nombre: "Curvilíneo Salmón, Líneas Marrones",
-                archivo: "IMG-20250522-WA0043.JPG",
-                material: "Porcelana",
-                dimensiones: "18 x 10 x 3,5 cm",
-                precio: 70,
-                ref: "CL015/25"
-            },
+           
             {
                 nombre: "Curvilíneo Azul Multitono",
                 archivo: "IMG-20250522-WA00999.JPG",
@@ -462,6 +446,36 @@ const categorias = [
             }
         ]
     },
+     {
+        titulo: "Curvilíneos Grandes",
+        piezas: [
+            {
+                nombre: "Curvilíneo Grande Líneas Negras",
+                archivo: "IMG_9844.JPG",
+                material: "Refractario",
+                dimensiones: "15 x 27 x 5 cm",
+                precio: 175,
+                ref: "CG001/25"
+            },
+            {
+                nombre: "Curvilíneo Grande Líneas Blancas",
+                archivo: "IMG_9865.JPG",
+                material: "Refractario",
+                dimensiones: "14 x 25 x 4 cm",
+                precio: 175,
+                ref: "CG002/25"
+            },
+            {
+                nombre: "Curvilíneo Grande Líneas Color",
+                archivo: "IMG_9859.JPG",
+                material: "Refractario",
+                dimensiones: "14 x 25 x 4 cm",
+                precio: 175,
+                ref: "CG003/25"
+            },
+            
+        ]
+    },
     {
         titulo: "Poliedros",
         piezas: [
@@ -531,37 +545,6 @@ const categorias = [
                 precio: 0,
                 ref: "JAR003/25 precio pendiente"
             }
-        ]
-    },
-    
-    {
-        titulo: "Curvilíneos Grandes",
-        piezas: [
-            {
-                nombre: "Curvilíneo Grande Líneas Negras",
-                archivo: "IMG_9844.JPG",
-                material: "Refractario",
-                dimensiones: "15 x 27 x 5 cm",
-                precio: 175,
-                ref: "CG001/25"
-            },
-            {
-                nombre: "Curvilíneo Grande Líneas Blancas",
-                archivo: "IMG_9865.JPG",
-                material: "Refractario",
-                dimensiones: "14 x 25 x 4 cm",
-                precio: 175,
-                ref: "CG002/25"
-            },
-            {
-                nombre: "Curvilíneo Grande Líneas Color",
-                archivo: "IMG_9859.JPG",
-                material: "Refractario",
-                dimensiones: "14 x 25 x 4 cm",
-                precio: 175,
-                ref: "CG003/25"
-            },
-            
         ]
     },
     {
