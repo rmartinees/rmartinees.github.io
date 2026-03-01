@@ -2,6 +2,14 @@ const categorias = [
     {
         titulo: "Curvilíneos Pequeños",
         piezas: [
+               {
+                nombre: "Curvilíneo Azul, Cenefa Azul-Naranja",
+                archivo: "CURV6.JPG",
+                material: "Porcelana",
+                dimensiones: "10 x 10 x 3 cm",
+                precio: 50,
+                ref: "CLP030/26"
+            },
              {
                 nombre: "Curvilíneo Marrón, Líneas Naranjas",
                 archivo: "CLP01826.JPG",
@@ -221,11 +229,43 @@ const categorias = [
             },
             {
                 nombre: "Curvilíneo Blanco, Líneas Negras",
-                archivo: "CL02726.JPG",
+                archivo: "CURV1.JPG",
                 material: "Porcelana",
                 dimensiones: "18 x 10 x 3,5 cm",
                 precio: 70,
                 ref: "CL027/26"
+            },
+            {
+                nombre: "Curvilíneo Negro, Líneas Blancas",
+                archivo: "CURV2.JPG",
+                material: "Porcelana",
+                dimensiones: "18 x 10 x 3,5 cm",
+                precio: 70,
+                ref: "CL030/26"
+            },
+            {
+                nombre: "Curvilíneo Negro, Cenefa Blanca",
+                archivo: "CURV3.JPG",
+                material: "Porcelana",
+                dimensiones: "18 x 10 x 3,5 cm",
+                precio: 70,
+                ref: "CL031/26"
+            },
+            {
+                nombre: "Curvilíneo Naranja, Líneas Blancas",
+                archivo: "CURV4.JPG",
+                material: "Porcelana",
+                dimensiones: "18 x 10 x 3,5 cm",
+                precio: 70,
+                ref: "CL032/26"
+            },
+            {
+                nombre: "Curvilíneo Naranja, Cenefa Blanca",
+                archivo: "CURV5.JPG",
+                material: "Porcelana",
+                dimensiones: "18 x 10 x 3,5 cm",
+                precio: 70,
+                ref: "CL033/26"
             },
             {
                 nombre: "Curvilíneo Amarillo, Líneas Naranja",
@@ -330,7 +370,6 @@ const categorias = [
                 precio: "70",
                 ref: "CL013/25"
             },
-           
             {
                 nombre: "Curvilíneo Azul Multitono",
                 archivo: "IMG-20250522-WA00999.JPG",
@@ -422,13 +461,29 @@ const categorias = [
                 ref: "CLM005/26"
             },
              {
-                nombre: "Curvilíneo M Rojo, Lineas Blancas",
+                nombre: "Curvilíneo M Rojo, Líneas Blancas",
                 archivo: "CLM006.JPG",
                 material: "Porcelana",
                 dimensiones: "10 x 10 x 11 cm",
                 precio: 85,
                 ref: "CLM006/26"
-            }
+            },
+            {
+                nombre: "Curvilíneo M Negro, Líneas Blancas",
+                archivo: "CURVM1.JPG",
+                material: "Porcelana",
+                dimensiones: "10 x 10 x 11 cm",
+                precio: 85,
+                ref: "CLM007/26"
+            },
+            {
+                nombre: "Curvilíneo M Naranja, Líneas Rojas",
+                archivo: "CURVM2.JPG",
+                material: "Porcelana",
+                dimensiones: "10 x 10 x 11 cm",
+                precio: 85,
+                ref: "CLM007/26"
+            },
            
         ]
     },
@@ -437,12 +492,20 @@ const categorias = [
         titulo: "Curvilíneos G",
         piezas: [
             {
-                nombre: "Curvilíneo S Rojo Lineas",
+                nombre: "Curvilíneo G Rojo Líneas",
                 archivo: "IMG_3918.JPG",
                 material: "Porcelana",
                 dimensiones: "26,5 x 12 x 3 cm",
                 precio: 110,
                 ref: "CLS005/25"
+            },
+            {
+                nombre: "Curvilíneo G Azul Líneas Blancas",
+                archivo: "CURVG.JPG",
+                material: "Porcelana",
+                dimensiones: "26,5 x 12 x 3 cm",
+                precio: 110,
+                ref: "CLG006/26"
             }
         ]
     },
