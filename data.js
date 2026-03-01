@@ -53,14 +53,7 @@ const categorias = [
                 precio: 50,
                 ref: "CLP008/25 solo amarillo"
             },
-            {
-                nombre: "Curvilíneo P Naranja",
-                archivo: "IMG_9888.JPG",
-                material: "Porcelana",
-                dimensiones: "10 x 10 x 3 cm",
-                precio: 50,
-                ref: "CLP004/25"
-            },
+            
           
             {
                 nombre: "Curvilíneo P Líneas Blancas y Marrones",
@@ -69,14 +62,6 @@ const categorias = [
                 dimensiones: "10 x 10 x 3 cm",
                 precio: 50,
                 ref: "CLP007/25"
-            },
-            {
-                nombre: "Curvilíneo P Azul",
-                archivo: "IMG_9886.JPG",
-                material: "Porcelana",
-                dimensiones: "10 x 10 x 3 cm",
-                precio: 50,
-                ref: "CLP009/25"
             }, 
                 {
                 nombre: "Curvilíneo Azul, Cenefa Azul-Naranja",
@@ -150,7 +135,24 @@ const categorias = [
                 precio: 50,
                 ref: "CLP017/25"
             },
+              {
+                nombre: "Curvilíneo P Naranja",
+                archivo: "IMG_9888.JPG",
+                material: "Porcelana",
+                dimensiones: "10 x 10 x 3 cm",
+                precio: 50,
+                ref: "CLP004/25"
+            },
+          
             
+            {
+                nombre: "Curvilíneo P Azul",
+                archivo: "IMG_9886.JPG",
+                material: "Porcelana",
+                dimensiones: "10 x 10 x 3 cm",
+                precio: 50,
+                ref: "CLP009/25"
+            }, 
         ]
     },
     {
