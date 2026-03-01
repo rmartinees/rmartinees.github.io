@@ -77,7 +77,16 @@ const categorias = [
                 dimensiones: "10 x 10 x 3 cm",
                 precio: 50,
                 ref: "CLP009/25"
-            },  {
+            }, 
+                {
+                nombre: "Curvilíneo Azul, Cenefa Azul-Naranja",
+                archivo: "CURV6.JPG",
+                material: "Porcelana",
+                dimensiones: "10 x 10 x 3 cm",
+                precio: 50,
+                ref: "CLP030/26"
+            },
+            {
                 nombre: "Curvilíneo P Líneas Amarillas y Negras",
                 archivo: "IMG_9904.JPG",
                 material: "Porcelana",
