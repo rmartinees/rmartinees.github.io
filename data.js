@@ -469,7 +469,7 @@ const categorias = [
                 material: "Porcelana",
                 dimensiones: "11,5 x 17,5 x 3 cm",
                 precio: 85,
-                ref: "CLS004/25"
+                ref: "CLM004/25"
             },
             {
                 nombre: "Curvilíneo M Azul, Líneas Blancas",
@@ -485,7 +485,7 @@ const categorias = [
                 material: "Porcelana",
                 dimensiones: "10 x 10 x 11 cm",
                 precio: 85,
-                ref: "CLM007/26"
+                ref: "CLM008/26"
             },
             {
                 nombre: "Curvilíneo M Rojo, Líneas Blancas",
