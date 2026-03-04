@@ -2,14 +2,7 @@ const categorias = [
     {
         titulo: "Curvilíneos Pequeños",
         piezas: [
-               {
-                nombre: "Curvilíneo Azul, Cenefa Azul-Naranja",
-                archivo: "CURV6.JPG",
-                material: "Porcelana",
-                dimensiones: "10 x 10 x 3 cm",
-                precio: 50,
-                ref: "CLP030/26"
-            },
+              
              {
                 nombre: "Curvilíneo Marrón, Líneas Naranjas",
                 archivo: "CLP01826.JPG",
@@ -52,9 +45,7 @@ const categorias = [
                 dimensiones: "10 x 10 x 3 cm",
                 precio: 50,
                 ref: "CLP008/25 solo amarillo"
-            },
-            
-          
+            },          
             {
                 nombre: "Curvilíneo P Líneas Blancas y Marrones",
                 archivo: "IMG_9899.JPG",
@@ -214,14 +205,7 @@ const categorias = [
                 precio: 70,
                 ref: "CL023/26"
             },
-            {
-                nombre: "Curvilíneo Policromado",
-                archivo: "CL02426.JPG",
-                material: "Porcelana",
-                dimensiones: "18 x 10 x 3,5 cm",
-                precio: 70,
-                ref: "CL024/26"
-            },
+            
             {
                 nombre: "Curvilíneo Salmón, Líneas Marrón",
                 archivo: "CL02526.JPG",
@@ -312,7 +296,7 @@ const categorias = [
             },
             {
                 nombre: "Curvilíneo Líneas Negras",
-                archivo: "IMG_9911.JPG",
+                archivo: "CL003.JPG",
                 material: "Porcelana",
                 dimensiones: "18 x 10 x 3,5 cm",
                 precio: 70,
@@ -328,7 +312,7 @@ const categorias = [
             },
             {
                 nombre: "Curvilíneo Líneas Rojas",
-                archivo: "IMG_9906.JPG",
+                archivo: "CL005.JPG",
                 material: "Porcelana",
                 dimensiones: "18 x 10 x 3,5 cm",
                 precio: 70,
@@ -469,7 +453,7 @@ const categorias = [
                 material: "Porcelana",
                 dimensiones: "12,5 x 19 x 3,5 cm",
                 precio: 85,
-                ref: "CLM004/26"
+                ref: "CLM009/26"
             },
               {
                 nombre: "Curvilíneo M Rosa",
@@ -507,7 +491,7 @@ const categorias = [
                 material: "Porcelana",
                 dimensiones: "26,5 x 12 x 3 cm",
                 precio: 110,
-                ref: "CLS005/25"
+                ref: "CLG005/25"
             },
             {
                 nombre: "Curvilíneo G Azul Líneas Blancas",
